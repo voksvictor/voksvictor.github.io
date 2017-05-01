@@ -1,0 +1,211 @@
+@font-face {
+  font-family: Avenir;
+  font-weight: lighter;
+  src: url("../fonts/AvenirLTStd-Light.otf") format("opentype"); }
+@font-face {
+  font-family: Avenir;
+  font-weight: 500;
+  src: url("../fonts/AvenirLTStd-Medium.otf") format("opentype"); }
+@font-face {
+  font-family: Avenir;
+  font-weight: 900;
+  src: url("../fonts/AvenirLTStd-Black.otf") format("opentype"); }
+body {
+  font-family: 'Avenir';
+  font-weight: lighter;
+  color: #3c444f; }
+
+.nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 40px 50px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s; }
+  .nav .logo {
+    position: relative; }
+  .nav .logo > img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle; }
+  .nav .brand-name {
+    display: inline-block;
+    position: absolute;
+    left: 49px;
+    top: 0px;
+    color: white;
+    font-size: 14px; }
+    .nav .brand-name p {
+      margin-bottom: 0px; }
+    .nav .brand-name .brand-name-name {
+      font-weight: 900;
+      width: 200px; }
+  .nav .icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px; }
+
+.nav.scrolled {
+  z-index: 2;
+  background: #3c444f;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.cover-img {
+  background-image: url("../img/img_homecover.png");
+  background-size: cover;
+  padding: 20px 20px;
+  margin-bottom: 62px; }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .cover-img {
+      padding: 130px 0 58px 0; } }
+  @media (min-width: 1200px) {
+    .cover-img {
+      padding: 200px 0 160px 0; } }
+  .cover-img h1 {
+    font-weight: 500;
+    font-size: 98px; }
+  .cover-img p {
+    margin: auto;
+    width: 60%;
+    font-size: 24px; }
+  .cover-img a.btn.btn-info {
+    height: 46px;
+    margin-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 23px;
+    border-color: transparent;
+    background-color: #2c7dbb; }
+    .cover-img a.btn.btn-info img {
+      width: 12px;
+      height: 12px; }
+    .cover-img a.btn.btn-info span {
+      margin-left: 9px;
+      font-size: 16px;
+      line-height: 32px; }
+    .cover-img a.btn.btn-info:hover {
+      background-color: #2caebb; }
+
+.subtitle {
+  font-size: 24px; }
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden; }
+
+#upButton {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #2c7dbb;
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  padding: initial;
+  line-height: 46px; }
+  #upButton:hover {
+    background-color: #2caebb; }
+  #upButton img {
+    width: 24px;
+    height: 24px; }
+
+.quote {
+  width: 65%;
+  font-size: 18px;
+  margin: auto; }
+  .quote a {
+    color: #2c7dbb;
+    font-weight: 500;
+    font-size: 12px; }
+
+.name {
+  font-size: 12px;
+  color: #3c444f; }
+
+hr {
+  width: 900px; }
+
+hr.red {
+  width: 30px;
+  border-color: #da375f; }
+
+.profile-pic {
+  text-align: center;
+  margin-bottom: 45px; }
+  .profile-pic p {
+    font-size: 12px; }
+
+.profile-img {
+  background-image: url("../img/button_victor.png");
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 14px; }
+  .profile-img:hover {
+    width: 90px;
+    height: 90px; }
+
+.project-thumbnails {
+  margin-bottom: 78px; }
+
+.project {
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .project .image {
+    width: 260px;
+    height: 250px;
+    margin: auto; }
+    .project .image img {
+      max-width: 100%;
+      max-height: 100%; }
+    .project .image:after {
+      content: '\A';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: linear-gradient(transparent 75%, black);
+      opacity: 0;
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s; }
+    .project .image:hover:after {
+      opacity: 1; }
+  .project .title {
+    max-width: 260px;
+    padding-bottom: 23px;
+    padding-top: 23px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%; }
+
+.hobbies {
+  display: inline-block;
+  max-width: 318px; }
+  .hobbies img {
+    max-height: 150px; }
+
+footer {
+  margin-top: 125px;
+  margin-bottom: 25px; }
+
+.footer-icon-linkedin {
+  width: 32px;
+  height: 32px;
+  margin-right: 25px; }
+
+.footer-icon-mail {
+  width: 40px;
+  height: 40px; }
+
+/*# sourceMappingURL=main.css.map */
