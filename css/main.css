@@ -132,6 +132,7 @@ hr {
 
 hr.red {
   width: 30px;
+  height: 2px;
   border-color: #da375f; }
 
 .profile-pic {
