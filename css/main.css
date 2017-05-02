@@ -86,7 +86,7 @@ body {
       font-size: 16px;
       line-height: 32px; }
     .cover-img a.btn.btn-info:hover {
-      background-color: #2caebb; }
+      background-color: #4d9bc3; }
 
 .subtitle {
   font-size: 24px; }
@@ -109,7 +109,7 @@ body {
   padding: initial;
   line-height: 46px; }
   #upButton:hover {
-    background-color: #2caebb; }
+    background-color: #4d9bc3; }
   #upButton img {
     width: 24px;
     height: 24px; }
@@ -132,7 +132,7 @@ hr {
 
 hr.red {
   width: 30px;
-  height: 3px;
+  height: 2px;
   border-color: #da375f; }
 
 .profile-pic {
