@@ -128,6 +128,10 @@ body {
   background-color: #2c7dbb;
 }
 
+.cover-img .btn.btn-info.longer {
+  width: 300px;
+}
+
 .cover-img a.btn.btn-info img {
   width: 12px;
   height: 12px;
@@ -306,6 +310,7 @@ footer {
   vertical-align: bottom;
 }
 
+/* desktop view */
 @media screen and (min-width: 1200px) {
   .cover-img {
     padding: 200px 0 160px 0;
@@ -323,11 +328,15 @@ footer {
     margin: 35px auto 0 auto;
     padding: 0 auto 160px auto;
   }
+  .cover-img a.btn.btn-info span {
+    font-size: 16px;
+  }
   .nav {
     padding: 30px 50px;
   }
 }
 
+/* tablet view */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .cover-img {
     padding: 130px 0 58px 0;
@@ -345,11 +354,15 @@ footer {
     margin: 35px auto 0 auto;
     padding: 0 auto 58px auto;
   }
+  .cover-img a.btn.btn-info span {
+    font-size: 16px;
+  }
   .nav {
     padding: 30px 50px;
   }
 }
 
+/* mobile view */
 @media screen and (max-width: 767px) {
   .cover-img {
     padding: 90px 0 22px 0;
@@ -366,6 +379,9 @@ footer {
     height: 40px;
     margin: 27px auto 0 auto;
     padding: 0 auto 22px auto;
+  }
+  .cover-img a.btn.btn-info span {
+    font-size: 12px;
   }
   .nav {
     padding: 30px 10px 0px 10px;
