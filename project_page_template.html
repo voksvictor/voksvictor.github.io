@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Victor Ong</title>
+  <meta content="Victor Ong&#39;s portfolio" name="description" />
+  <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet" />
+  <link href="css/main.css" rel="stylesheet" />
+  <link href="css/project.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="nav">
+    <div class="logo pull-left" style="margin-left: 5px">
+      <img src="img/icon_VO.png" />
+      <div class="brand-name">
+        <p class="brand-name-name">
+          VICTOR ONG
+        </p>
+        <p class="brand-name-sub">
+          UX/Interaction Designer
+        </p>
+      </div>
+    </div>
+    <div class="menu pull-right" style="margin-right: 5px">
+      <img class="icon" src="img/icon_home.png" />
+      <img class="icon" src="img/icon_portfolio.png" />
+      <img class="icon" src="img/icon_profile.png" />
+      <img class="icon" src="img/icon_email.png" />
+    </div>
+  </div>
+
+  <a class="anchor" name="top"></a>
+
+  <div class="cover-img">
+    <div class="container">
+      <h1>SAMPLE Project Name</h1>
+      <p>
+        SAMPLE Project Tasks and Descriptions 
+      </p>
+      <a class="btn btn-info longer" href="#design-work">
+        <img src="img/icon_chevrondown.png" />
+        <span>Find out more about this project</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="container text-center" id="details">
+    <a class="btn btn-info hidden" href="#top" id="upButton">
+      <img src="img/icon_backtotop_chevronup.png" />
+    </a>
+  </div>
+
+  <footer>
+    <div class="container" stye="padding-left: 5px; padding-right: 5px">
+      <span style="line-height:40px">
+        &copy; 2017 VICTOR All rights reserved.
+      </span>
+      <span class="pull-right">
+        <a href="https://www.linkedin.com/in/victor-ong-06238725/">
+          <img class="footer-icon-linkedin" src="img/icon_linkedin.png" />
+        </a>
+        <a href="mailto:voksvictor@yahoo.com">
+          <img class="footer-icon-mail" src="img/icon_footeremail.png" />
+        </a>
+      </span>
+    </div>
+  </footer>
+
+  <script>
+    window.navBar = document.querySelector(".nav")
+    window.upButton = document.querySelector("#upButton")
+    window.addEventListener('scroll', function() {
+      scrollPosY = window.scrollY;
+      if(scrollPosY > 150) {
+        navBar.className = ('nav scrolled');
+      } else if(scrollPosY <= 150) {
+        navBar.className =  ('nav');
+      }
+      upButtonPoint = document.getElementById("details").getBoundingClientRect().top
+      if(upButtonPoint <= 80) {
+        window.upButton.className = "btn btn-info"
+      } else {
+        window.upButton.className = "btn btn-info hidden"
+      }
+    })
+  </script>
+
+</body>
