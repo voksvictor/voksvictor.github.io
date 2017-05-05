@@ -19,6 +19,10 @@
   float: left;
 }
 
+.nobreak {
+  word-break: keep-all;
+}
+
 body {
   font-family: 'Avenir';
   font-weight: lighter;
@@ -311,6 +315,7 @@ footer {
 
 /* desktop view */
 @media screen and (min-width: 1200px) {
+
   .container {
     max-width: 1200px;
   }
@@ -333,38 +338,101 @@ footer {
   .cover-img a.btn.btn-info span {
     font-size: 16px;
   }
+
   .nav {
     padding: 30px 50px;
+  }
+
+  .nav .logo > img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+  .nav .brand-name {
+    left: 49px;
+    top: 5px;
+  }
+
+  .nav .brand-name .brand-name-name {
+    font-size: 18px;
+  }
+
+  .nav .brand-name .brand-name-sub {
+    font-size: 14px;
+  }
+
+  .nav .icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
   }
 }
 
 /* tablet view */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+
   .container {
     width: 768px;
   }
+
   .cover-img {
     padding: 130px 0 58px 0;
     margin-bottom: 52px;
   }
+
   .cover-img h1 {
     font-size: 82px;
   }
+
   .cover-img p {
     font-size: 21px;
     margin-top: 27px;
   }
+
   .cover-img .btn.btn-info {
     height: 46px;
     margin: 35px auto 0 auto;
     padding: 0 auto 58px auto;
   }
+
   .cover-img a.btn.btn-info span {
     font-size: 16px;
   }
+
   .nav {
     padding: 30px 50px;
   }
+
+  .nav .logo > img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+  .nav .brand-name {
+    left: 49px;
+    top: 5px;
+  }
+
+  .nav .brand-name .brand-name-name {
+    font-size: 18px;
+  }
+
+  .nav .brand-name .brand-name-sub {
+    font-size: 14px;
+  }
+
+  .nav .icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+
 }
 
 /* mobile view */
@@ -397,7 +465,30 @@ footer {
   }
 
   .nav {
-    padding: 30px 10px 0px 10px;
+    padding: 30px 10px 0 0;
+  }
+
+  .nav .logo > img {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+  }
+
+  .nav .brand-name {
+    left: 36px;
+    top: 5px;
+  }
+
+  .nav .brand-name .brand-name-name {
+    font-size: 14px;
+  }
+
+  .nav .brand-name .brand-name-sub {
+    font-size: 10px;
+  }
+
+  .nav .icon {
+    display: none;
   }
 
   .project .image img {
