@@ -60,7 +60,7 @@ body {
   display: inline-block;
   position: absolute;
   left: 49px;
-  top: 5px;
+  top: 3px;
   color: white;
   font-size: 14px;
 }
@@ -351,7 +351,6 @@ footer {
 
   .nav .brand-name {
     left: 49px;
-    top: 5px;
   }
 
   .nav .brand-name .brand-name-name {
@@ -414,7 +413,6 @@ footer {
 
   .nav .brand-name {
     left: 49px;
-    top: 5px;
   }
 
   .nav .brand-name .brand-name-name {
@@ -438,6 +436,7 @@ footer {
 /* mobile view */
 @media screen and (max-width: 767px) {
   .container {
+    margin: 0 0;
     /*max-width: 767px;*/
     max-width: 356px;
   }
@@ -465,7 +464,7 @@ footer {
   }
 
   .nav {
-    padding: 30px 10px 0 0;
+    padding: 30px 10px;
   }
 
   .nav .logo > img {
@@ -476,7 +475,6 @@ footer {
 
   .nav .brand-name {
     left: 36px;
-    top: 5px;
   }
 
   .nav .brand-name .brand-name-name {
