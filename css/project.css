@@ -41,6 +41,7 @@ div.subSection {
 }
 
 div.subSection.left {
+  margin-bottom: 0px;
   margin-right: 35px;
 }
 
@@ -103,8 +104,10 @@ div.subSection.left {
   div.subSection {
     width: 470px;
   }
+
   div.subSection.left {
-    margin-right: 35px;
+    margin-right: 35px; /* originally 40px but faced issue */
+    margin-bottom: 0px;
   }
 
   .line hr {
@@ -147,7 +150,8 @@ div.subSection.left {
   }
 
   div.subSection.left {
-    margin-right: 15px;
+    margin-right: 15px; /* originally 20px but faced issue */
+    margin-bottom: 0px;
   }
 
   .subSection h2 {
@@ -202,6 +206,7 @@ div.subSection.left {
 
   div.subSection.left {
     margin: auto; 
+    margin-bottom: 32px;
   }
 
   .subSection h2 {

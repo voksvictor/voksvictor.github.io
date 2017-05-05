@@ -313,7 +313,7 @@ footer {
 /* desktop view */
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    max-width: 1200px;
   }
   .cover-img {
     padding: 200px 0 160px 0;
@@ -371,7 +371,8 @@ footer {
 /* mobile view */
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 767px;
+    /*max-width: 767px;*/
+    max-width: 356px;
   }
   .cover-img {
     padding: 90px 0 22px 0;
@@ -380,20 +381,29 @@ footer {
   .cover-img h1 {
     font-size: 46px;
   }
+
   .cover-img p {
     font-size: 12px;
     margin-top: 15px;
   }
+
   .cover-img .btn.btn-info {
     height: 40px;
     margin: 27px auto 0 auto;
     padding: 0 auto 22px auto;
   }
+
   .cover-img a.btn.btn-info span {
     font-size: 12px;
   }
+
   .nav {
     padding: 30px 10px 0px 10px;
+  }
+
+  .project .image img {
+    height: 171px;
+    width: 178px;
   }
 }
 
