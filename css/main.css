@@ -31,7 +31,6 @@ body {
 
 .container {
   margin: auto;
-  max-width: 1200px;
 }
 
 .nav {
@@ -85,6 +84,8 @@ body {
   width: 35px;
   height: 35px;
   margin-left: 18px;
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 .nav .menu {
@@ -151,7 +152,6 @@ body {
 }
 
 .subtitle {
-  font-size: 24px;
   text-align: center;
 }
 
@@ -186,8 +186,8 @@ body {
 
 .quote {
   width: 65%;
-  font-size: 18px;
   margin: auto;
+  text-align: center;
 }
 
 .quote a {
@@ -201,58 +201,39 @@ body {
   color: #3c444f;
 }
 
-hr {
-  width: 900px;
+#dividerline {
+  border-color: #efefef;
+  max-width: 900px;
 }
 
 hr.red {
   width: 30px;
   border-width: 2px;
   border-color: #da375f;
-  margin: 23px auto 28px auto;
 }
 
 .profile-pic {
   text-align: center;
-  margin-bottom: 45px;
-}
-
-.profile-pic p {
-  font-size: 12px;
 }
 
 .profile-img {
   background-image: url("../img/button_victor.png");
   background-size: cover;
-  width: 80px;
-  height: 80px;
-  margin: auto;
-  margin-top: 32px;
-  margin-bottom: 14px;
-}
-
-.profile-img:hover {
-  width: 90px;
-  height: 90px;
-  margin-top: 27px;
-  margin-bottom: 9px;
 }
 
 .project-thumbnails {
-  margin-bottom: 78px;
+  display: inline-block;
 }
 
 .project {
+  display: inline-block;
+  float: left;
   text-align: center;
   position: relative;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .project .image {
   margin: auto;
-  width: 260px;
-  height: 250px;
 }
 
 .project .image img {
@@ -287,13 +268,14 @@ hr.red {
   width: 100%;
 }
 
-.hobbies {
-  display: inline-block;
-  max-width: 318px;
+.hobbies-group {
+  text-align: center;
 }
 
-.hobbies img {
-  max-height: 150px;
+.hobbies {
+  display: inline-block;
+  max-width: 30%;
+  vertical-align: top;
 }
 
 footer {
@@ -316,9 +298,14 @@ footer {
 /* desktop view */
 @media screen and (min-width: 1200px) {
 
-  .container {
-    max-width: 1200px;
+  p {
+    font-size: 18px;
   }
+
+  .container {
+    max-width: 1120px;
+  }
+
   .cover-img {
     padding: 200px 0 160px 0;
     margin-bottom: 62px;
@@ -361,17 +348,75 @@ footer {
     font-size: 14px;
   }
 
-  .nav .icon {
-    width: 35px;
-    height: 35px;
-    margin-left: 20px;
-    margin-bottom: 15px;
-    margin-top: 5px;
+  .subtitle {
+    font-size: 24px;
+  }
+
+  #linemark1 {
+    margin: 32px auto 28px auto;
+  }
+
+  #linemark2 {
+    margin: 23px auto 35px auto;
+  }
+
+  #linemark3 {
+    margin: 23px auto 27px auto;
+  }
+
+  #dividerline {
+    margin: 0 auto 85px auto;
+  }
+
+  .profile-pic {
+    margin-bottom: 45px;
+  }
+
+  .profile-pic p {
+    font-size: 12px;
+  }
+
+  .profile-img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 14px;
+  }
+
+  .profile-img:hover {
+    width: 90px;
+    height: 90px;
+    margin-top: 27px;
+    margin-bottom: 9px;
+  }
+
+  .project-thumbnails {
+    margin-bottom: 78px;
+    min-width: 1120px;
+  }
+
+  .project {
+    height: 250px;
+    width: 260px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .hobbies img {
+    max-height: 150px;
+    max-width: 318px;
+    margin-bottom: 18px;
   }
 }
 
 /* tablet view */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  p {
+    font-size: 16px;
+  }
 
   .container {
     width: 768px;
@@ -423,18 +468,79 @@ footer {
     font-size: 14px;
   }
 
-  .nav .icon {
-    width: 35px;
-    height: 35px;
-    margin-left: 20px;
-    margin-bottom: 15px;
-    margin-top: 5px;
+  .subtitle {
+    font-size: 21px;
   }
 
+  #linemark1 {
+    margin: 28px auto 22px auto;
+  }
+
+  #linemark2 {
+    margin: 23px auto 33px auto;
+  }
+
+  #linemark3 {
+    margin: 23px auto 15px auto;
+  }
+
+  #dividerline {
+    margin: 0 auto 57px auto;
+  }
+
+  .profile-pic {
+    margin-bottom: 35px;
+  }
+
+  .profile-pic p {
+    font-size: 12px;
+  }
+
+  .profile-img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-top: 26px;
+    margin-bottom: 14px;
+  }
+
+  .profile-img:hover {
+    width: 90px;
+    height: 90px;
+    margin-top: 21px;
+    margin-bottom: 9px;
+  }
+
+  .project {
+    height: 225px;
+    width: 234px;
+    margin-left: 6px;
+    margin-right: 7px;
+    margin-bottom: 13px;
+  }
+
+  .project-thumbnails {
+    margin-bottom: 50px;
+    min-width: 768px;
+  }
+
+  .hobbies {
+    max-width: 234px;
+  }
+
+  .hobbies img {
+    max-height: 114px;
+    margin-bottom: 18px;
+  }
 }
 
 /* mobile view */
 @media screen and (max-width: 767px) {
+
+  p {
+    font-size: 14px;
+  }
+
   .container {
     margin: 0 0;
     /*max-width: 767px;*/
@@ -489,9 +595,68 @@ footer {
     display: none;
   }
 
-  .project .image img {
+  .subtitle {
+    font-size: 18px;
+  }
+
+  #linemark1 {
+    margin: 24px auto 16px auto;
+  }
+
+  #linemark2 {
+    margin: 19px auto 23px auto;
+  }
+
+  #linemark3 {
+    margin: 19px auto 7px auto;
+  }
+
+  #dividerline {
+    margin: 0 auto 29px auto;
+  }
+
+  .profile-pic {
+    margin-bottom: 30px;
+  }
+
+  .profile-pic p {
+    font-size: 10px;
+  }
+
+  .profile-img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+
+  .profile-img:hover {
+    width: 70px;
+    height: 70px;
+    margin-top: 19px;
+    margin-bottom: 5px;
+  }
+
+  .project {
     height: 171px;
     width: 178px;
+    margin-right: 0px;
+  }
+
+  .project-thumbnails {
+    margin-bottom: 26px;
+    min-width: 356px;
+  }
+
+  .hobbies {
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .hobbies img {
+    max-height: 116px;
+    margin-bottom: 16px;
   }
 }
 
