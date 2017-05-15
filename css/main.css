@@ -11,215 +11,270 @@
   font-weight: 900;
   src: url("../fonts/AvenirLTStd-Black.otf") format("opentype"); }
 
-.pull-right {
-  float: right;
-}
 
-.pull-left {
-  float: left;
+*{
+	margin: 0;
+	padding: 0; 
 }
-
-.nobreak {
-  word-break: keep-all;
-}
-
 body {
-  font-family: 'Avenir';
+  font-family: 'Avenir', sans-serif;
   font-weight: lighter;
   color: #3c444f;
 }
 
-.container {
-  margin: auto;
+.active{
+  border-bottom: 2px solid #da357f !important;
 }
 
-.nav {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  margin: auto;
-  padding: 40px 50px;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
+
+
+/*BANNER SECTION*/
+.banner_bg{
+	background-image:url(../img/img_homecover.png);
+	background-size: cover;
+    min-height: 100%;
+    padding-bottom: 95px;
 }
 
-.nav .logo {
+
+.banner_bg_prjt1{
+  background-image:url(../img/prjt1/img_aiocover.png);
+  background-size: cover;
+    min-height: 100%;
+    padding-bottom: 95px;
+}
+/*END*/
+
+
+
+
+
+.navbar-brand {
+  font-size: 24px;
+  }
+  .navbar-container {
+      padding: 30px 0 20px 0;
+     /* height: 105px;
+      overflow:hidden;*/
+  }
+  .navbar.navbar-fixed-top.fixed-theme {
+      background-color: #3c444f;
+      border-color: transparent;
+      box-shadow: 0 0 7px rgba(0,0,0,.4);
+      padding: 8px 0;
+  }
+  .navbar.navbar-fixed-top.fixed-theme a{
+    /*color: #fff;*/
+    border-bottom: 2px solid  transparent;
+
+
+  }
+  .navbar-brand.fixed-theme {
+      font-size: 18px;
+  }
+  .navbar-container.fixed-theme {
+      padding: 0;
+  }
+  .navbar-brand.fixed-theme,
+  .navbar-container.fixed-theme,
+  .navbar.navbar-fixed-top.fixed-theme,
+  .navbar-brand,
+  .navbar-container{
+      transition: 0.8s;
+      -webkit-transition:  0.8s;
+  }
+  .menu{
+    background-color: #fff !important;
+  }
+  .nav a{
+    /*color: #fff; */
+  }
+  .navbar a{
+    text-transform: uppercase;
+    font-family: "Avenir", sans-serif;
+  }
+
+.dropdown-menu > li > a{
+   color: #3c444f;
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: none;
+}
+
+
+
+
+
+.wrap_brand{
   float: left;
-  position: relative;
+  margin-right: 10px;
 }
-
-.nav .logo > img {
-  width: 40px;
-  height: 40px;
-  vertical-align: middle;
-}
-
-.nav .brand-name {
-  display: inline-block;
-  position: absolute;
-  left: 49px;
-  top: 3px;
-  color: white;
-  font-size: 14px;
-}
-
-.nav .brand-name p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.nav .brand-name .brand-name-name {
-  font-family: "Avenir Black";
-  font-size: 14px;
-  font-weight: 900;
-  width: 200px;
-}
-
-.nav .brand-name .brand-name-sub {
-  font-size: 10px;
-}
-
-.nav .icon {
-  width: 35px;
-  height: 35px;
-  margin-left: 18px;
-  margin-bottom: 15px;
+.wrap_brand ul{
   margin-top: 5px;
 }
-
-.nav .menu {
-  float: right;
+.wrap_brand ul li{
+  list-style: none;
+  margin: -2px 0;
+  line-height: 15px;
+}
+.brandlogo{
+  width: 40px;
+  height: 40px;
 }
 
-.nav.scrolled {
-  z-index: 2;
-  background: #3c444f;
-  padding-top: 15px;
-  padding-bottom: 20px; }
-
-.cover-img {
-  background-image: url("../img/img_homecover.png");
-  background-size: cover;
-  padding: 20px 20px;
-  margin-bottom: 62px;
+.clear_fix{
+  height: 200px;
 }
-
-.cover-img h1 {
-  font-family: "Avenir Medium";
-  font-weight: 500;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
+.brandname{
+  font-family:"Avenir", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
 }
-
-.cover-img p {
-  font-size: 24px;
-  margin: auto;
-  text-align: center;
-  width: 65%;
+.brandname2{
+  font-family:"Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #fff;
 }
-
-.cover-img .btn.btn-info {
-  display: block;
-  height: 46px;
-  width: 200px;
-  margin: 0 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 23px;
-  border-color: transparent;
-  background-color: #2c7dbb;
+.icon{
+  width: 35px;
+  height: 35px;
 }
-
-.cover-img .btn.btn-info.longer {
-  width: 300px;
-}
-
-.cover-img a.btn.btn-info img {
-  width: 12px;
-  height: 12px;
-}
-
-.cover-img a.btn.btn-info span {
-  margin-left: 9px;
-  font-size: 16px;
-  line-height: 32px;
-}
-
-.cover-img a.btn.btn-info:hover {
-  background-color: #4d9bc3;
-}
-
-.subtitle {
-  text-align: center;
-}
-
-.anchor {
-  display: block;
-  position: relative;
-  top: -50px;
-  visibility: hidden;
-}
-
-#upButton {
-  height: 46px;
-  width: 46px;
-  border-radius: 50%;
-  border-color: transparent;
-  background-color: #2c7dbb;
-  position: fixed;
-  right: 50px;
-  bottom: 30px;
-  padding: initial;
-  line-height: 46px;
-}
-
-#upButton:hover {
-  background-color: #4d9bc3;
-}
-
-#upButton img {
-  width: 24px;
-  height: 24px;
-}
-
-.quote {
-  width: 65%;
-  margin: auto;
-  text-align: center;
-}
-
-.quote a {
-  color: #2c7dbb;
-  font-weight: 500;
-  font-size: 12px;
-}
-
-.name {
-  font-size: 12px;
+.lbl_banner1{
+  font-family: "Avenir", sans-serif;
+  font-weight: bold;
+  font-size: 98px;
   color: #3c444f;
 }
+.lbl_info{
+   font-family: "Avenir", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  color: #3c444f;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.arrowdown{
+  width: 10px;
+  height: 10px;
+}
+.wrapclickdodwwn{
+  padding:13px 25px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #2c7dbb;
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  border:0;
+  margin-top: 100px;
 
-#dividerline {
-  border-color: #efefef;
-  max-width: 900px;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+}
+.wrapclickdodwwn:hover, .wrapclickdodwwn:focus{
+  background-color: #4d9bc3;
+  outline: 0;
+}
+.clear_fix2{
+  height: 25px;
 }
 
-hr.red {
+.subtitle{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: #3c444f;
+  margin-top: 62px;
+  margin-bottom: 32px;
+}
+/*.clear_fix3{
+  height: 62px;
+}
+*/
+.linemark{
+  height: 2px;
   width: 30px;
-  border-width: 2px;
-  border-color: #da375f;
+  margin-bottom: 28px;
+  background-color: #da375f;
 }
-
-.profile-pic {
+.quote{
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  font-family: "Avenir", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.lbl_link{
+  font-family: "Avenir", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #2c7dbb;
+}
+.wrap_profimg{
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
   text-align: center;
 }
+.wrap_profimg img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 
-.profile-img {
-  background-image: url("../img/button_victor.png");
-  background-size: cover;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
 }
+.wrap_profimg img:hover{
+  width: 90px;
+  height: 90px;
+}
+.lbl_name{
+    font-size: 12px;
+    font-family: "Avenir", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.linesep{
+  width: 900px;
+  margin: auto;
+  height: 1px;
+  margin-top: 45px;
+  margin-bottom: 85px;
+  background-color: #e4e4e4;
+}
+.wrap_wraplblworks{
+  margin-bottom: 23px; 
+  width: 100%;
+  margin: auto;
+}
+.lbl_designwork{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: #3c444f;
+}
+.linemark_designwork{
+  height: 2px;
+  width: 30px;
+  margin-top: 23px;
+  margin-bottom: 35px;
+  background-color: #da375f;
+}
+
+
+
+
+
+
 
 .project-thumbnails {
   display: inline-block;
@@ -248,7 +303,7 @@ hr.red {
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(transparent 75%, black);
+  background: linear-gradient(transparent 70%, black);
   opacity: 0;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -266,398 +321,568 @@ hr.red {
   position: absolute;
   bottom: 0px;
   width: 100%;
+  font-family: "Avenir", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+.margin_bottom{
+  margin-bottom: 20px;
 }
 
-.hobbies-group {
-  text-align: center;
+.wrap_wraplblworks2{
+  margin-top: 78px;
 }
 
-.hobbies {
+.img_lov{
+  max-height: 150px;
+  max-width: 318px;
+}
+.lbl_title{
+  margin: 18px 0;
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: #3c444f;
+  text-transform: uppercase;
+}
+.lbl_info2{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #3c444f;
+}
+footer{
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.lbl_copy{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #3c444f;
+}
+ul.wrap_socialmedia{
+  float: right;
+}
+ul.wrap_socialmedia li{
+  list-style: none;
+  position: relative;
   display: inline-block;
-  max-width: 30%;
-  vertical-align: top;
+  width: 45px;
+  height: 45px;
 }
-
-footer {
-  margin: 70px 5px 25px 5px;
-}
-
-.footer-icon-linkedin {
-  width: 32px;
-  height: 32px;
-  margin-right: 25px;
-  vertical-align: initial;
-}
-
-.footer-icon-mail {
+ul.wrap_socialmedia li img{
   width: 40px;
   height: 40px;
-  vertical-align: bottom;
+}
+.clearfix_footer{
+  height: 5px;
 }
 
-/* desktop view */
-@media screen and (min-width: 1200px) {
 
-  p {
-    font-size: 18px;
-  }
 
-  .container {
-    max-width: 1120px;
-  }
-
-  .cover-img {
-    padding: 200px 0 160px 0;
-    margin-bottom: 62px;
-  }
-  .cover-img h1 {
-    font-size: 98px;
-  }
-  .cover-img p {
-    font-size: 24px;
-    margin-top: 35px;
-  }
-  .cover-img .btn.btn-info {
-    height: 46px;
-    margin: 35px auto 0 auto;
-    padding: 0 auto 160px auto;
-  }
-  .cover-img a.btn.btn-info span {
-    font-size: 16px;
-  }
-
-  .nav {
-    padding: 30px 50px;
-  }
-
-  .nav .logo > img {
-    width: 40px;
-    height: 40px;
-    margin-top: 5px;
-  }
-
-  .nav .brand-name {
-    left: 49px;
-  }
-
-  .nav .brand-name .brand-name-name {
-    font-size: 18px;
-  }
-
-  .nav .brand-name .brand-name-sub {
-    font-size: 14px;
-  }
-
-  .subtitle {
-    font-size: 24px;
-  }
-
-  #linemark1 {
-    margin: 32px auto 28px auto;
-  }
-
-  #linemark2 {
-    margin: 23px auto 35px auto;
-  }
-
-  #linemark3 {
-    margin: 23px auto 27px auto;
-  }
-
-  #dividerline {
-    margin: 0 auto 85px auto;
-  }
-
-  .profile-pic {
-    margin-bottom: 45px;
-  }
-
-  .profile-pic p {
-    font-size: 12px;
-  }
-
-  .profile-img {
-    width: 80px;
-    height: 80px;
-    margin: auto;
-    margin-top: 32px;
-    margin-bottom: 14px;
-  }
-
-  .profile-img:hover {
-    width: 90px;
-    height: 90px;
-    margin-top: 27px;
-    margin-bottom: 9px;
-  }
-
-  .project-thumbnails {
-    margin-bottom: 78px;
-    min-width: 1120px;
-  }
-
-  .project {
-    height: 250px;
-    width: 260px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-  }
-
-  .hobbies img {
-    max-height: 150px;
-    max-width: 318px;
-    margin-bottom: 18px;
-  }
+.cd-container {
+  width: 90%;
+  max-width: 768px;
+  margin: 2em auto;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
 }
 
-/* tablet view */
-@media screen and (min-width: 768px) and (max-width: 1199px) {
 
-  p {
-    font-size: 16px;
+
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: #337ab7 url(../img/icon_backtotop_chevronup.png) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  margin-left: 105px
+}
+.wrap_desknav{
+  display: none;
+  position: absolute;
+    margin-left: -80px; 
+  margin-top: 0px;
+}
+.morediv{
+  background-color: #fff;
+  width: 250px;
+  border-radius: 5px;
+  z-index: 999;
+  padding: 25px 0;
+  box-shadow: 0 0 3px rgba(0,0,0,.4);
+}
+.morediv ul li{
+  list-style: none;
+  border-bottom: 1px solid #f0efef;
+  padding: 10px 0 10px 25px;
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #3c444f;
+  text-transform: none;
+
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+}
+.last{
+  border-bottom: 0 !important;
+}
+.morediv ul li:hover{
+  background-color: #f4f4f8;
+}
+.wrap_desknav2{
+  display: none;
+  position: absolute;
+  right: 0;
+  z-index: 9999999;
+  top: 0;
+  /*overflow-y: auto;*/
+
+}
+.morediv2{
+  background-color: #fff;
+  width: 300px;
+  height: 650px;
+  /*max-height: 100%;*/
+  padding: 25px 0;
+  box-shadow: 0 0 3px rgba(0,0,0,.4);
+   overflow-y: auto;
+}
+.morediv2 ul li{
+  list-style: none;
+  border-bottom: 1px solid #f0efef;
+  padding: 10px 0 10px 25px;
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #3c444f;
+  text-transform: none;
+
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+}
+.last{
+  border-bottom: 0 !important;
+}
+.morediv2 ul li:hover{
+  background-color: #f4f4f8;
+}
+.dropmobilenav{
+  position: static;
+  float: none;
+  box-shadow: none;
+  width: 100%;
+  border: 0;
+}
+.dropmobilenav li{
+  padding-left: 45px !important;
+}
+.lbl_drodown{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: none !important;
+  color: #3c444f;
+}
+.cleafixnav{
+  height: 100px;
+}
+.clearmenu{
+  width: 180px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PROJECT STYLE*/
+.lbl_banner2{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 60px;
+  color: #fff;
+}
+.lbl_info2{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: #fff;
+  font-style: italic;
+}
+.clear_fixbanner_bottom{
+  height: 80px;
+}
+.wrap_clasify{
+  margin-top: 50px;
+}
+.wrap_clasify ul li{
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 25px;
+  border-right: 1px solid #909090;
+}
+.wrap_clasify ul li:last-child{
+  border: 0;
+}
+.lbl_led{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  color: #a6a8ab;
+  padding-bottom: 0;
+  text-transform: uppercase;
+}
+.lbl_tel{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #3b444f;
+}
+.lbl_overview{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 21px;
+  color: #3b444f;
+}
+.clear_top{
+  height: 60px;
+}
+.clear_top2{
+  height: 100px;
+}
+.clear_top3{
+  height: 74px;
+}
+.lbl_research{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: #3b444f;
+}
+.wrap_imgresearch{
+
+}
+.wrap_imgresearch img{
+  width: 100%;
+}
+.lbl_researchinfo{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #3b444f;
+  margin-top: 60px;
+}
+.clear_img{
+  height: 25px;
+}
+.lbl_overview_info2{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #3b444f;
+}
+.img_pagenav{
+  width: 12px;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+.img_pagenav2{
+  width: 12px;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+.footnav, .lbl_footnav2{
+  font-size: 14px;
+  color: #3b444f !important;
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+}
+.footnav2{
+  display: none;
+}
+/*END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FORCING CSS DESIGN*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .linesep{
+    width: 80%
   }
-
-  .container {
-    width: 768px;
-  }
-
-  .cover-img {
-    padding: 130px 0 58px 0;
-    margin-bottom: 52px;
-  }
-
-  .cover-img h1 {
-    font-size: 82px;
-  }
-
-  .cover-img p {
+  .subtitle{
     font-size: 21px;
-    margin-top: 27px;
   }
-
-  .cover-img .btn.btn-info {
-    height: 46px;
-    margin: 35px auto 0 auto;
-    padding: 0 auto 58px auto;
-  }
-
-  .cover-img a.btn.btn-info span {
+  .quote{
+    width: 75%;
     font-size: 16px;
   }
-
-  .nav {
-    padding: 30px 50px;
-  }
-
-  .nav .logo > img {
-    width: 40px;
-    height: 40px;
-    margin-top: 5px;
-  }
-
-  .nav .brand-name {
-    left: 49px;
-  }
-
-  .nav .brand-name .brand-name-name {
-    font-size: 18px;
-  }
-
-  .nav .brand-name .brand-name-sub {
-    font-size: 14px;
-  }
-
-  .subtitle {
+  .lbl_designwork{
     font-size: 21px;
-  }
-
-  #linemark1 {
-    margin: 28px auto 22px auto;
-  }
-
-  #linemark2 {
-    margin: 23px auto 33px auto;
-  }
-
-  #linemark3 {
-    margin: 23px auto 15px auto;
-  }
-
-  #dividerline {
-    margin: 0 auto 57px auto;
-  }
-
-  .profile-pic {
-    margin-bottom: 35px;
-  }
-
-  .profile-pic p {
-    font-size: 12px;
-  }
-
-  .profile-img {
-    width: 80px;
-    height: 80px;
-    margin: auto;
-    margin-top: 26px;
-    margin-bottom: 14px;
-  }
-
-  .profile-img:hover {
-    width: 90px;
-    height: 90px;
-    margin-top: 21px;
-    margin-bottom: 9px;
-  }
-
-  .project {
-    height: 225px;
-    width: 234px;
-    margin-left: 6px;
-    margin-right: 7px;
-    margin-bottom: 13px;
-  }
-
-  .project-thumbnails {
-    margin-bottom: 50px;
-    min-width: 768px;
-  }
-
-  .hobbies {
-    max-width: 234px;
-  }
-
-  .hobbies img {
-    max-height: 114px;
-    margin-bottom: 18px;
   }
 }
 
-/* mobile view */
-@media screen and (max-width: 767px) {
 
-  p {
-    font-size: 14px;
-  }
 
-  .container {
-    margin: 0 0;
-    /*max-width: 767px;*/
-    max-width: 356px;
-  }
-  .cover-img {
-    padding: 90px 0 22px 0;
-    margin-bottom: 44px;
-  }
-  .cover-img h1 {
-    font-size: 46px;
-  }
-
-  .cover-img p {
-    font-size: 12px;
-    margin-top: 15px;
-  }
-
-  .cover-img .btn.btn-info {
-    height: 40px;
-    margin: 27px auto 0 auto;
-    padding: 0 auto 22px auto;
-  }
-
-  .cover-img a.btn.btn-info span {
-    font-size: 12px;
-  }
-
-  .nav {
-    padding: 30px 10px;
-  }
-
-  .nav .logo > img {
-    width: 30px;
-    height: 30px;
-    margin-top: 5px;
-  }
-
-  .nav .brand-name {
-    left: 36px;
-  }
-
-  .nav .brand-name .brand-name-name {
-    font-size: 14px;
-  }
-
-  .nav .brand-name .brand-name-sub {
-    font-size: 10px;
-  }
-
-  .nav .icon {
+/*homepage*/
+@media only screen and (max-width: 767px) {
+  .icon{
     display: none;
   }
-
-  .subtitle {
+  .brandname{
+    font-size: 14px;
+  }
+  .brandname2{
+    font-size: 12px;
+  }
+  .navbar-brand{
+    padding: 5px 30px;
+  }
+  .navbar-container{
+    padding: 20px 0 10px 0;
+  }
+  .banner_bg{
+    padding-bottom: 0;
+  }
+  .clear_fix{
+    height: 90px;
+  }
+  .lbl_banner1{
+    font-size: 48px;
+  }
+  .lbl_info{
+    font-size: 12px;
+  }
+  .wrapclickdodwwn{
+    margin: 27px 0 22px 0;
+  }
+  .subtitle{
     font-size: 18px;
+    margin: 44px 0 24px 0;
   }
-
-  #linemark1 {
-    margin: 24px auto 16px auto;
+  .space{
+    display: none;
   }
-
-  #linemark2 {
-    margin: 19px auto 23px auto;
-  }
-
-  #linemark3 {
-    margin: 19px auto 7px auto;
-  }
-
-  #dividerline {
-    margin: 0 auto 29px auto;
-  }
-
-  .profile-pic {
-    margin-bottom: 30px;
-  }
-
-  .profile-pic p {
-    font-size: 10px;
-  }
-
-  .profile-img {
-    width: 60px;
-    height: 60px;
-    margin: auto;
-    margin-top: 24px;
-    margin-bottom: 10px;
-  }
-
-  .profile-img:hover {
-    width: 70px;
-    height: 70px;
-    margin-top: 19px;
-    margin-bottom: 5px;
-  }
-
-  .project {
-    height: 171px;
-    width: 178px;
-    margin-right: 0px;
-  }
-
-  .project-thumbnails {
-    margin-bottom: 26px;
-    min-width: 356px;
-  }
-
-  .hobbies {
-    margin: auto;
-    max-width: 100%;
-  }
-
-  .hobbies img {
-    max-height: 116px;
+  .linemark{
     margin-bottom: 16px;
   }
+  .quote{
+    font-size: 14px;
+    width: 80%;
+  }
+  .linesep{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 29px;
+  }
+  .lbl_designwork{
+    font-size: 18px;
+  }
+  .linemark_designwork{
+    margin: 19px 0 23px 0;
+  }
+  .margin_bottom{
+    padding: 0;
+    margin: 0;
+  }
+  .wrap_lblcopy{
+    text-align: center;
+  }
+  .wrap_wraplblworks2{
+    margin-top: 26px;
+  }
+  .lbl_info2{
+    font-size: 14px;
+  }
+  ul.wrap_socialmedia{
+    float: none;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+  }
 }
+/*end*/
 
-/*# sourceMappingURL=main.css.map */
+
+
+
+/*Project*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .lbl_banner2{
+    font-size: 40px;
+  }
+  .lbl_info2{
+    font-size: 18px;
+  }
+  .wrapclickdodwwn{
+    margin-top: 55px;
+  }
+  .clear_fixbanner_bottom{
+    height: 0;
+  }
+  .wrap_clasify{
+    margin-top: 40px;
+  }
+  .lbl_tel{
+    font-size: 16px;
+  }
+  .clear_top{
+    height: 50px;
+  }
+  .lbl_overview_info2{
+    font-size: 16px;
+  }
+  .clear_top2{
+    height: 70px; 
+  }
+  .clear_top3{
+    height: 52px;
+  }
+  .lbl_research{
+    font-size: 21px;
+  }
+  .lbl_researchinfo{
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .clear_top{
+    height: 40px;
+  }
+  .lbl_banner2{
+    font-size: 24px;
+  }
+  .resizefont{
+    font-size: 12px;
+  }
+  .clear_fixbanner_bottom{
+    height: 0;
+  }
+  .lbl_tel{
+    font-size: 14px;
+  }
+  .wrap_clasify ul li{
+    padding: 5px 15px;
+  }
+  .lbl_overview{
+    font-size: 16px;
+  }
+  .lbl_overview_info2{
+    font-size: 14px;
+  }
+  .clear_top2{
+    height: 50px;
+  }
+  .clear_top3{
+    height: 36px;
+  }
+  .lbl_researchinfo{
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .lbl_research{
+    font-size: 18px;
+  }
+  .lbl_footnav{
+    display: none;
+  }
+  .lbl_footnav2{
+    display: block;
+  }
+}
+/*end*/
+/*END*/
