@@ -1,80 +1,262 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="utf-8" />
-  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title>Victor Ong</title>
-  <meta content="Victor Ong&#39;s portfolio" name="description" />
-  <!-- link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet" /-->
-  <link href="css/main.css" rel="stylesheet" />
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Victor Ong</title>
+    <meta content="Victor Ong&#39;s portfolio" name="description" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+     <style type="text/css">
+       .nav > li > a:hover, .nav > li > a:focus{
+          background: none !important;
+          border-bottom: 2px solid #da357f !important;
+          color: #d72136 !important;
 
-  <div class="nav">
-    <div class="container">
-      <div class="logo pull-left" style="margin-left: 5px">
-        <img src="img/icon_VO.png" />
-        <div class="brand-name">
-          <p class="brand-name-name">
-            VICTOR ONG
-          </p>
-          <p class="brand-name-sub">
-            UX/Interaction Designer
-          </p>
+          transition: all .5s ease-in-out;
+          -webkit-transition: all .5s ease-in-out;
+          -moz-transition: all .5s ease-in-out;
+       }
+       .remove_style:hover, .remove_style:focus, .remove_style:active{
+          background-color: transparent !important;
+       }
+       .border_right{
+        border-right: 1px solid #fff;
+       }
+       .navbar-brand > img{
+        margin-top: -8px;
+       }
+       .padding_remove{
+          padding: 8px 5px !important;
+       }
+       .navbar-nav{
+        padding: 0 15px !important;
+       }
+       .navbar{
+        border-bottom: 0 !important;
+       }
+       a:hover{
+        text-decoration: none;
+       }
+       .hoverremove:hover{
+        background-color: #fff !important;
+       }
+     </style>
+
+    
+  </head>
+  <body>
+    <a href="" id="top"></a>
+    <div class="container-fluid banner_bg">
+      <div class="container">
+        <div class="row">
+          <nav id="header" class="navbar navbar-fixed-top">
+                <div id="header-container" class="container navbar-container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle mobilenav"  >
+                        <!-- data-toggle="collapse" data-target="#navbar" -->
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar menu"></span>
+                            <span class="icon-bar menu"></span>
+                            <span class="icon-bar menu"></span>
+                        </button>
+
+
+
+        <!-- collapse nav for mobile view -->
+        <div class="wrap_desknav2" id="wrap_desknav2">
+          <div class="morediv2">
+               <ul class="">
+                 <a href="#" class="hidemenu"><li>Home</li></a>
+                 <li class="dropdown hoverremove">
+                      <a href="#" class="dropdown-toggle lbl_drodown" data-toggle="dropdown">Portfolio
+                      <div class="clearmenu"></div>
+                      <b class="caret"></b></a>
+                      <ul class="dropdown-menu dropmobilenav">
+                        <a href="hp-aio.html" class="hidemenu"><li>HP All-in-One Printer Remote</li></a>
+                         <a href="#" class="hidemenu"><li>Pocketmath Rebranding</li></a>
+                         <a href="#" class="hidemenu"><li>Pocketmath Website</li></a>
+                         <a href="#" class="hidemenu"><li>HP Embedded Web Server</li></a>
+                         <a href="#" class="hidemenu"><li>Aloha Digital Branding</li></a>
+                         <a href="#" class="hidemenu"><li>HP Printer Assistant</li></a>
+                         <a href="#" class="hidemenu"><li>OSIM UX Platform</li></a>
+                         <a href="#" class="hidemenu"><li>OSIM Brand Color Strategy</li></a>
+                         <a href="#" class="hidemenu"><li>OSIM uVenus</li></a>
+                         <a href="#" class="hidemenu"><li>OSIM uKimono</li></a>
+                         <a href="#" class="hidemenu"><li>OSIM uGoGo</li></a>
+                         <a href="#" class="hidemenu"><li class="last">Phillips Gesture Controlle</li></a>
+                      </ul>
+                    </li>
+                 <a href="#" class="hidemenu"><li>My Profile</li></a>
+                 <a href="#" class="hidemenu"><li class="last">Email</li></a>
+               </ul>
+               <div class="cleafixnav"></div>
+          </div>
         </div>
-      </div>
-      <div class="menu pull-right" style="margin-right: 5px">
-        <img class="icon" src="img/icon_home.png" />
-        <img class="icon" src="img/icon_portfolio.png" />
-        <img class="icon" src="img/icon_profile.png" />
-        <img class="icon" src="img/icon_email.png" />
-      </div>
+
+
+                        <div id="brand" class="navbar-brand" href="#top">
+                            <div class="wrap_brand">
+                              <img src="img/icon_VO.png" class="brandlogo" />
+                            </div>
+                            <div class="wrap_brand">
+                                <ul>
+                                  <li><span class="brandname">Victor Ong</span></li>
+                                  <li><span class="brandname2">UX/Interaction Designer</span></li>
+                                </ul>                                
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse">
+                       <ul class="nav navbar-nav navbar-right">
+                          <li><a href="#home"><img class="icon" src="img/icon_home.png" /></a></li>
+                          <li>
+                            <a href="#portfolio" onclick="myFunction()" class="desktopnav"><img class="icon" src="img/icon_portfolio.png" /></a>
+
+
+
+                            <!-- collapse nav for desktop view -->
+                            <div id="wrap_desknav" class="wrap_desknav">
+                              <div class="arrow-up"></div>
+                              <div class="morediv">
+                                   <ul class="">
+                                     <a href="hp-aio.html" class="hidemenu"><li>HP All-in-One Printer Remote</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>Pocketmath Rebranding</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>Pocketmath Website</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>HP Embedded Web Server</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>Aloha Digital Branding</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>HP Printer Assistant</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM UX Platform</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM Brand Color Strategy</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uVenus</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uKimono</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uGoGo</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li class="last">Phillips Gesture Controlle</li></a>
+                                   </ul>
+                              </div>
+                            </div>
+                          </li>
+                          <li><a href="#profile"><img class="icon" src="img/icon_profile.png" /></a></li>
+                          <li><a href="#email"><img class="icon" src="img/icon_email.png" /></a></li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="clear_fix"></div>
+        <div class="container">
+          <div class="row">
+              <div class="wrap_textbanner text-center">
+                <h1 class="lbl_banner1">HELLO. 你好.</h1>
+                <p class="lbl_info">
+                  I’M VICTOR ONG. I DESIGN BRANDS, WEB EXPERIENCES, APPS,<br> AND MORE. THIS IS MY DESIGN PORTFOLIO.
+                </p>
+
+                <a href="#myworks" class="">
+                  <button class="wrapclickdodwwn"><img src="img/icon_chevrondown.png" class="arrowdown">&nbsp;&nbsp;Check out my work</button>
+                </a>
+              </div>
+              <div class="clear_fix2"></div>
+          </div>
+          
+        </div>
     </div>
-  </div>
-  <a class="anchor" name="top"></a>
-  <div class="cover-img">
-    <div class="container">
-      <h1><span>HELLO.</span> <span class="nobreak">你好.</span></h1>
-      <p>
-        I’M VICTOR ONG. I DESIGN BRANDS, WEB EXPERIENCES, APPS, AND MORE. THIS IS MY DESIGN PORTFOLIO.
-      </p>
-      <a class="btn btn-info" href="#design-work"><img src="img/icon_chevrondown.png" /><span>Check out my work</span></a>
-    </div>
-  </div>
-  <div class="container text-center" id="details">
-    <div class="subtitle">
-      A journey of learning & discovery...
-    </div>
-    <hr id="linemark1" class="red" />
-    <p class="quote">
-      "Through design, I learn different ways of approaching problems - exploring and discovering new methodologies along the way. And as the field of design expands and evolves, I cannot wait to see what opportunities await me...."<a href="profile.html">LEARN MORE</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container text-center">
+      <h1 class="subtitle">
+        A journey of learning & discovery...
+      </h1>
+      <br class="space">
+      <label class="linemark"></label>
+      <p class="quote">
+      "Through design, I learn different ways of approaching problems - exploring and discovering new methodologies along the way. And as the field of design expands and evolves, I cannot wait to see what opportunities await me...."<a href="profile.html" class="lbl_link">LEARN MORE</a>
     </p>
-    <div class="profile-pic">
-      <div class="profile-img"></div>
-      <p class="name">
-        VICTOR ONG
-      </p>
+
+      <div class="wrap_profimg"><img src="img/button_victor.png"></div>
+      <label class="lbl_name">Victor Ong</label>
+      <a href="" id="myworks"></a>
     </div>
-    <a class="anchor" name="design-work"></a>
-    <hr id="dividerline"/>
-    <div class="subtitle">
-      Design Work
-    </div>
-    <hr id="linemark2" class="red" />
+
+  
+
+
+
+  <hr class="linesep">
+
+
+
+
+
+
+  <div class="wrap_wraplblworks text-center">
+    <label class="lbl_designwork">Design Works</label>
+  </div>
+  <div class="wrap_wraplblworks text-center">
+  <label class="linemark_designwork"></label>
+  </div>
+
+
+
+
+
+<div class="container">
+  <div class="row">
     <div class="project-thumbnails clearfix">
-      <div class="col-sm-4 col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_AIO.png" />
           </a>
-          <a href="project_page_template.html">
+          <a href="project.html">
             <div class="title">
               HP All-in-One Printer Remote
             </div>
           </a>
         </div>
       </div>
-      <div class="col-sm-4 col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_pmbrand.png" />
@@ -86,7 +268,7 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-4 col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_pmwebsite.png" />
@@ -98,7 +280,7 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-4 col-lg-3 last">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom last">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_ews.png" />
@@ -110,7 +292,7 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-4 col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_aloha.png" />
@@ -122,7 +304,7 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-4 col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_printerassistant.png" />
@@ -134,7 +316,10 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-4 col-lg-3">
+
+
+      
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_uxplatform.png" />
@@ -146,7 +331,7 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-4 col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_colorstrategy.png" />
@@ -158,7 +343,7 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-4 col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_uvenus.png" />
@@ -170,7 +355,7 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-4 col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_ukimono.png" />
@@ -182,7 +367,7 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-4 col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_ugogo.png" />
@@ -194,7 +379,7 @@
           </a>
         </div>
       </div>
-      <div class="col-sm-4 col-lg-3 last">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom last">
         <div class="project">
           <a class="image" href="project_page_template.html">
             <img src="img/button_gesturecontrol.png" />
@@ -206,66 +391,230 @@
           </a>
         </div>
       </div>
-    </div>
-    <div class="subtitle">
-      What I love besides design.
-    </div>
-    <hr id="linemark3" class="red"/>
-    <div class="hobbies-group">
-      <div class="hobbies">
-        <img class="icon" src="img/img_sports.png" />
-        <div class="subtitle">
-          Sports
-        </div>
-        <p>
-          I run and swim regularly, as well as hitting the gym for weights training. And I am a group fitness instructor, helping people reach their fitness goals and grow stronger together!
-        </p>
-      </div>
-      <div class="hobbies">
-        <img class="icon" src="img/img_dogs.png" />
-        <div class="subtitle">
-          Dogs
-        </div>
-        <p>
-          I love my dogs! There’s a saying that dogs are man’s best friend - and they are definitely mine. I enjoy spending quality time with my dogs whenever possible.
-        </p>
-      </div>
-      <div class="hobbies">
-        <img class="icon" src="img/img_travels.png" />
-        <div class="subtitle">
-          Travels
-        </div>
-        <p>
-          I like to travel and see the world. New cultures, new foods, new experiences are always attractive to me. My travels are often very active, involving adventure sports and more!
-        </p>
-      </div>
-    </div>
-    <a class="btn btn-info hidden" href="#top" id="upButton"><img src="img/icon_backtotop_chevronup.png" /></a>
+    </div>  
   </div>
-  <footer>
-    <div class="container" stye="padding-left: 5px; padding-right: 5px">
-      <span style="line-height:40px">&copy; 2017 VICTOR All rights reserved.</span>
-      <span class="pull-right">
-        <a href="https://www.linkedin.com/in/victor-ong-06238725/"><img class="footer-icon-linkedin" src="img/icon_linkedin.png" /></a><a href="mailto:voksvictor@yahoo.com"><img class="footer-icon-mail" src="img/icon_footeremail.png" /></a>
-      </span>
+</div>
+
+
+
+
+
+
+  <div class="wrap_wraplblworks2 text-center">
+    <label class="lbl_designwork">What I love besides design..</label>
+  </div>
+  <div class="wrap_wraplblworks text-center">
+  <label class="linemark_designwork"></label>
+  </div>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+      <img src="img/img_sports.png" class="img_lov" /><br>
+      <label class="lbl_title">Sports</label>
+      <p class="lbl_info2">
+        I run and swim regularly, as well as hitting the gym for weights training. And I am a group fitness instructor, helping people reach their fitness goals and grow stronger together!
+      </p>
     </div>
-  </footer>
-  <script>
-    window.navBar = document.querySelector(".nav")
-    window.upButton = document.querySelector("#upButton")
-    window.addEventListener('scroll', function() {
-      scrollPosY = window.scrollY;
-      if(scrollPosY > 150) {
-        navBar.className = ('nav scrolled');
-      } else if(scrollPosY <= 150) {
-        navBar.className =  ('nav');
-      }
-      upButtonPoint = document.getElementById("details").getBoundingClientRect().top
-      if(upButtonPoint <= 80) {
-        window.upButton.className = "btn btn-info"
-      } else {
-        window.upButton.className = "btn btn-info hidden"
-      }
-    })
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+      <img src="img/img_dogs.png" class="img_lov" /><br>
+      <label class="lbl_title">Dogs</label>
+      <p class="lbl_info2">
+       I love my dogs! There’s a saying that dogs are man’s best friend - and they are definitely mine. I enjoy spending quality time with my dogs whenever possible.
+      </p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+      <img src="img/img_travels.png" class="img_lov" /><br>
+      <label class="lbl_title">Travels</label>
+      <p class="lbl_info2">
+        I like to travel and see the world. New cultures, new foods, new experiences are always attractive to me. My travels are often very active, involving adventure sports and more!
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<footer class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wrap_lblcopy">
+      <label class="lbl_copy">&copy; 2017 VICTOR All rights reserved.</label>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <ul class="wrap_socialmedia">
+        <li>
+           <a href="https://www.linkedin.com/in/victor-ong-06238725/"><img class="footer-icon-linkedin" src="img/icon_linkedin.png" /></a>
+        </li>
+        <li>
+        <label class="clearfix_footer"></label>
+          <a href="mailto:voksvictor@yahoo.com"><img class="footer-icon-mail" src="img/icon_footeremail.png" /></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+<a href="#0" class="cd-top">Top</a>
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+    var myNavBar = {
+
+        flagAdd: true,
+
+        elements: [],
+
+        init: function (elements) {
+            this.elements = elements;
+        },
+
+        add : function() {
+            if(this.flagAdd) {
+                for(var i=0; i < this.elements.length; i++) {
+                    document.getElementById(this.elements[i]).className += " fixed-theme";
+                }
+                this.flagAdd = false;
+            }
+        },
+
+        remove: function() {
+            for(var i=0; i < this.elements.length; i++) {
+                document.getElementById(this.elements[i]).className =
+                        document.getElementById(this.elements[i]).className.replace( /(?:^|\s)fixed-theme(?!\S)/g , '' );
+            }
+            this.flagAdd = true;
+        }
+
+    };
+
+    myNavBar.init(  [
+        "header",
+        "header-container",
+        "brand"
+    ]);
+
+    /**
+     * Function that manage the direction
+     * of the scroll
+     */
+    function offSetManager(){
+
+        var yOffset = 0;
+        var currYOffSet = window.pageYOffset;
+
+        if(yOffset < currYOffSet) {
+            myNavBar.add();
+        }
+        else if(currYOffSet == yOffset){
+            myNavBar.remove();
+        }
+
+    }
+
+    window.onscroll = function(e) {
+        offSetManager();
+    }
+
+    offSetManager();
+    });
   </script>
-</body>
+
+
+  <script type="text/javascript">
+    jQuery(document).ready(function($){
+      // browser window scroll (in pixels) after which the "back to top" link is shown
+      var offset = 300,
+        //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+        offset_opacity = 1200,
+        //duration of the top scrolling animation (in ms)
+        scroll_top_duration = 700,
+        //grab the "back to top" link
+        $back_to_top = $('.cd-top');
+
+      //hide or show the "back to top" link
+      $(window).scroll(function(){
+        ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
+        if( $(this).scrollTop() > offset_opacity ) { 
+          $back_to_top.addClass('cd-fade-out');
+        }
+      });
+
+      //smooth scroll to top
+      $back_to_top.on('click', function(event){
+        event.preventDefault();
+        $('body,html').animate({
+          scrollTop: 0 ,
+          }, scroll_top_duration
+        );
+      });
+
+    });
+  </script>
+
+
+  
+<script>
+function myFunction() {
+    var x = document.getElementById('wrap_desknav');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+
+
+
+ <!-- <script>
+    $(document).ready(function(){
+        $(".desktopnav").click(function(){
+            $(".wrap_desknav").show(70);
+        });
+        $(".hidemenu").click(function(){
+            $(".wrap_desknav").hide(70);
+        });
+    });
+</script> -->
+
+<script>
+    $(document).ready(function(){
+        $(".mobilenav").click(function(){
+            $(".wrap_desknav2").show(70);
+        });
+        $(".hidemenu").click(function(){
+            $(".wrap_desknav2").hide(70);
+        });
+    });
+</script>
+
+<script type="text/javascript">
+  function resize()
+    {
+        var heights = window.innerHeight;
+        document.getElementById("#wrap_desknav2").style.height = heights + "px";
+    }
+    resize();
+    window.onresize = function() {
+        resize();
+    };
+</script>
+  
+  </body>
+</html>
