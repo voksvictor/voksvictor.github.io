@@ -13,8 +13,8 @@
 
 
 *{
-	margin: 0;
-	padding: 0; 
+  margin: 0;
+  padding: 0; 
 }
 body {
   font-family: 'Avenir', sans-serif;
@@ -30,8 +30,8 @@ body {
 
 /*BANNER SECTION*/
 .banner_bg{
-	background-image:url(../img/img_homecover.png);
-	background-size: cover;
+  background-image:url(../img/img_homecover.png);
+  background-size: cover;
     min-height: 100%;
     padding-bottom: 95px;
 }
@@ -39,6 +39,14 @@ body {
 
 .banner_bg_prjt1{
   background-image:url(../img/prjt1/img_aiocover.png);
+  background-size: cover;
+    min-height: 100%;
+    padding-bottom: 95px;
+}
+
+
+.banner_bg_prjt1{
+  background-image:url(../img/prjt2/img_ewscover.png);
   background-size: cover;
     min-height: 100%;
     padding-bottom: 95px;
@@ -559,12 +567,18 @@ ul.wrap_socialmedia li img{
   font-size: 60px;
   color: #fff;
 }
-.lbl_info2{
+.lbl_info2_index{
   font-family: "Avenir", sans-serif;
   font-weight: normal;
   font-size: 24px;
   color: #fff;
   font-style: italic;
+}
+.lbl_info2{
+  font-family: "Avenir", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #3b444f;
 }
 .clear_fixbanner_bottom{
   height: 80px;
@@ -658,6 +672,9 @@ ul.wrap_socialmedia li img{
 }
 .footnav2{
   display: none;
+}
+.clearfx_proto{
+  height: 25px;
 }
 /*END*/
 
