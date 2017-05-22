@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HP All-in-One Printer Remote</title>
+    <title>HP Embedded Web Server (EWS)</title>
     <meta content="Victor Ong&#39;s portfolio" name="description" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,14 +18,15 @@
     <link href="css/animate.css" rel="stylesheet">
      <style type="text/css">
        .nav > li > a:hover, .nav > li > a:focus{
-          background: none !important;
-          border-bottom: 2px solid #da357f !important;
-          color: #d72136 !important;
+        background: none !important;
+        /*border-bottom: 2px solid #da357f !important;*/
+        color: #d72136 !important;
+        
 
-          transition: all .5s ease-in-out;
-          -webkit-transition: all .5s ease-in-out;
-          -moz-transition: all .5s ease-in-out;
-       }
+        transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+     }
        .remove_style:hover, .remove_style:focus, .remove_style:active{
           background-color: transparent !important;
        }
@@ -44,15 +45,12 @@
        .navbar{
         border-bottom: 0 !important;
        }
-       a:hover{
-        text-decoration: none;
+       a:hover, a:active{
+        text-decoration: none !important;
        }
        .hoverremove:hover{
         background-color: #fff !important;
        }
-       .hide_icon{
-          display: none;
-        }
 
      </style>
 
@@ -76,7 +74,7 @@
 
   <body>
     <a href="" id="top"></a>
-    <div class="container-fluid banner_bg_prjt1">
+    <div class="container-fluid banner_bg_prjt2">
       <div class="container">
         <div class="row">
           <nav id="header" class="navbar navbar-fixed-top">
@@ -100,20 +98,20 @@
                                     <b class="caret"></b></a>
                                     <ul class="dropdown-menu dropmobilenav">
                                       <a href="hp-aio.html" class="hidemenu"><li>HP All-in-One Printer Remote</li></a>
-                                       <a href="#" class="hidemenu"><li>Pocketmath Rebranding</li></a>
-                                       <a href="#" class="hidemenu"><li>Pocketmath Website</li></a>
-                                       <a href="hp-ews.html" class="hidemenu"><li>HP Embedded Web Server</li></a>
-                                       <a href="#" class="hidemenu"><li>Aloha Digital Branding</li></a>
+                                      <a href="hp-ews.html" class="hidemenu"><li>HP Embedded Web Server</li></a>
+                                      <a href="aloha-branding.html" class="hidemenu"><li>Aloha Digital Branding</li></a>
+                                       <a href="pocketmath-rebranding.html" class="hidemenu"><li>Pocketmath Rebranding</li></a>
+                                       <a href="pocketmath-web.html" class="hidemenu"><li>Pocketmath Website</li></a>
                                        <a href="#" class="hidemenu"><li>HP Printer Assistant</li></a>
                                        <a href="#" class="hidemenu"><li>OSIM UX Platform</li></a>
                                        <a href="#" class="hidemenu"><li>OSIM Brand Color Strategy</li></a>
                                        <a href="#" class="hidemenu"><li>OSIM uVenus</li></a>
                                        <a href="#" class="hidemenu"><li>OSIM uKimono</li></a>
                                        <a href="#" class="hidemenu"><li>OSIM uGoGo</li></a>
-                                       <a href="#" class="hidemenu"><li class="last">Phillips Gesture Controlle</li></a>
+                                       <a href="#" class="hidemenu"><li class="last">Phillips Gesture Controller</li></a>
                                     </ul>
                                   </li>
-                               <a href="#" class="hidemenu"><li>My Profile</li></a>
+                               <a href="profile.html" class="hidemenu"><li>My Profile</li></a>
                                <a href="#" class="hidemenu"><li class="last">Email</li></a>
                              </ul>
                              <div class="cleafixnav"></div>
@@ -142,23 +140,23 @@
                               <div class="arrow-up"></div>
                               <div class="morediv">
                                    <ul class="">
-                                     <a href="hp-aio.html" class="hidemenu"><li>HP All-in-One Printer Remote</li></a>
-                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>Pocketmath Rebranding</li></a>
-                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>Pocketmath Website</li></a>
+                                      <a href="hp-aio.html" class="hidemenu"><li>HP All-in-One Printer Remote</li></a>
                                      <a href="hp-ews.html"onclick="myFunction()" class="hidemenu"><li>HP Embedded Web Server</li></a>
-                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>Aloha Digital Branding</li></a>
+                                     <a href="aloha-branding.html"onclick="myFunction()" class="hidemenu"><li>Aloha Digital Branding</li></a>
+                                     <a href="pocketmath-rebranding.html"onclick="myFunction()" class="hidemenu"><li>Pocketmath Rebranding</li></a>
+                                     <a href="pocketmath-web.html"onclick="myFunction()" class="hidemenu"><li>Pocketmath Website</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>HP Printer Assistant</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM UX Platform</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM Brand Color Strategy</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uVenus</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uKimono</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uGoGo</li></a>
-                                     <a href="#"onclick="myFunction()" class="hidemenu"><li class="last">Phillips Gesture Controlle</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li class="last">Phillips Gesture Controller</li></a>
                                    </ul>
                               </div>
                             </div>
                           </li>
-                          <li><a href="#profile"><img class="icon" src="img/icon_profile.png" /></a></li>
+                          <li><a href="profile.html"><img class="icon" src="img/icon_profile.png" /></a></li>
                           <li><a href="#email"><img class="icon" src="img/icon_email.png" /></a></li>
                       </ul>
                     </div>
@@ -280,7 +278,7 @@
   </div>
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-      <p class="lbl_researchinfo">
+      <p class="lbl_researchinfo lessmargintop">
         I conducted a heuristic evaluation on the existing EWS platform to better understand its workflows, supported features - as well
         as to find any existing usability issues. The research highlighted many areas for improvements, namely on high-level structure
         and converged workflows. I collaborated with program partners and stakeholders to create a design strategy roadmap. This
@@ -313,7 +311,7 @@
   </div>
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-      <p class="lbl_researchinfo">
+      <p class="lbl_researchinfo lessmargintop">
         I organized and lead a design workshop in HP’s Singapore Design Center. We assembled an international team of designers
         and developers from the United States, Singapore, Spain, and Brazil. The workshop served as one of the first of many efforts to
         align the design and user experience work being done in the different design centers around the world. These efforts marked a
@@ -504,7 +502,7 @@
   </div>
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-      <p class="lbl_researchinfo">
+      <p class="lbl_researchinfo lessmargintop">
        A user study was conducted to test the new EWS design and its mobile feasibility. I created test scripts and prepared all
         necessary materials for the study. I worked with an external agency to recruit users and facilitate the test. (Working with an
         external agency ensured credibility, since the study could not be perceived as being influenced by anyone involved in EWS
@@ -626,13 +624,24 @@
 
 <footer class="container">
   <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wrap_lblcopy">
-      <label class="lbl_copy">&copy; 2017 VICTOR All rights reserved.</label>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hide_socialmedia">
       <ul class="wrap_socialmedia">
         <li>
-           <a href="https://www.linkedin.com/in/victor-ong-06238725/"><img class="footer-icon-linkedin" src="img/icon_linkedin.png" /></a>
+           <a href="https://www.linkedin.com/in/victor-ong-06238725/" target="_blank"><img class="footer-icon-linkedin" src="img/icon_linkedin.png" /></a>
+        </li>
+        <li>
+        <label class="clearfix_footer"></label>
+          <a href="mailto:voksvictor@yahoo.com"><img class="footer-icon-mail" src="img/icon_footeremail.png" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wrap_lblcopy">
+      <label class="lbl_copy">© 2017 VICTOR. All rights reserved.</label>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hide_socialmedia2">
+      <ul class="wrap_socialmedia">
+        <li>
+           <a href="https://www.linkedin.com/in/victor-ong-06238725/" target="_blank"><img class="footer-icon-linkedin" src="img/icon_linkedin.png" /></a>
         </li>
         <li>
         <label class="clearfix_footer"></label>

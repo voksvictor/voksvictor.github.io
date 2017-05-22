@@ -18,14 +18,15 @@
     <link href="css/animate.css" rel="stylesheet">
      <style type="text/css">
        .nav > li > a:hover, .nav > li > a:focus{
-          background: none !important;
-          border-bottom: 2px solid #da357f !important;
-          color: #d72136 !important;
+        background: none !important;
+        /*border-bottom: 2px solid #da357f !important;*/
+        color: #d72136 !important;
+        
 
-          transition: all .5s ease-in-out;
-          -webkit-transition: all .5s ease-in-out;
-          -moz-transition: all .5s ease-in-out;
-       }
+        transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+     }
        .remove_style:hover, .remove_style:focus, .remove_style:active{
           background-color: transparent !important;
        }
@@ -44,16 +45,12 @@
        .navbar{
         border-bottom: 0 !important;
        }
-       a:hover{
-        text-decoration: none;
+       a:hover, a:active{
+        text-decoration: none !important;
        }
        .hoverremove:hover{
         background-color: #fff !important;
-       }
-       .hide_icon{
-          display: none;
-        }
-
+       }  
      </style>
 
     
@@ -100,20 +97,20 @@
                                     <b class="caret"></b></a>
                                     <ul class="dropdown-menu dropmobilenav">
                                       <a href="hp-aio.html" class="hidemenu"><li>HP All-in-One Printer Remote</li></a>
-                                       <a href="#" class="hidemenu"><li>Pocketmath Rebranding</li></a>
-                                       <a href="#" class="hidemenu"><li>Pocketmath Website</li></a>
-                                       <a href="#" class="hidemenu"><li>HP Embedded Web Server</li></a>
-                                       <a href="#" class="hidemenu"><li>Aloha Digital Branding</li></a>
+                                      <a href="hp-ews.html" class="hidemenu"><li>HP Embedded Web Server</li></a>
+                                      <a href="aloha-branding.html" class="hidemenu"><li>Aloha Digital Branding</li></a>
+                                       <a href="pocketmath-rebranding.html" class="hidemenu"><li>Pocketmath Rebranding</li></a>
+                                       <a href="pocketmath-web.html" class="hidemenu"><li>Pocketmath Website</li></a>
                                        <a href="#" class="hidemenu"><li>HP Printer Assistant</li></a>
                                        <a href="#" class="hidemenu"><li>OSIM UX Platform</li></a>
                                        <a href="#" class="hidemenu"><li>OSIM Brand Color Strategy</li></a>
                                        <a href="#" class="hidemenu"><li>OSIM uVenus</li></a>
                                        <a href="#" class="hidemenu"><li>OSIM uKimono</li></a>
                                        <a href="#" class="hidemenu"><li>OSIM uGoGo</li></a>
-                                       <a href="#" class="hidemenu"><li class="last">Phillips Gesture Controlle</li></a>
+                                       <a href="#" class="hidemenu"><li class="last">Phillips Gesture Controller</li></a>
                                     </ul>
                                   </li>
-                               <a href="#" class="hidemenu"><li>My Profile</li></a>
+                               <a href="profile.html" class="hidemenu"><li>My Profile</li></a>
                                <a href="#" class="hidemenu"><li class="last">Email</li></a>
                              </ul>
                              <div class="cleafixnav"></div>
@@ -143,22 +140,22 @@
                               <div class="morediv">
                                    <ul class="">
                                      <a href="hp-aio.html" class="hidemenu"><li>HP All-in-One Printer Remote</li></a>
-                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>Pocketmath Rebranding</li></a>
-                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>Pocketmath Website</li></a>
-                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>HP Embedded Web Server</li></a>
-                                     <a href="#"onclick="myFunction()" class="hidemenu"><li>Aloha Digital Branding</li></a>
+                                     <a href="hp-ews.html"onclick="myFunction()" class="hidemenu"><li>HP Embedded Web Server</li></a>
+                                     <a href="aloha-branding.html"onclick="myFunction()" class="hidemenu"><li>Aloha Digital Branding</li></a>
+                                     <a href="pocketmath-rebranding.html"onclick="myFunction()" class="hidemenu"><li>Pocketmath Rebranding</li></a>
+                                     <a href="pocketmath-web.html"onclick="myFunction()" class="hidemenu"><li>Pocketmath Website</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>HP Printer Assistant</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM UX Platform</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM Brand Color Strategy</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uVenus</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uKimono</li></a>
                                      <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uGoGo</li></a>
-                                     <a href="#"onclick="myFunction()" class="hidemenu"><li class="last">Phillips Gesture Controlle</li></a>
+                                     <a href="#"onclick="myFunction()" class="hidemenu"><li class="last">Phillips Gesture Controller</li></a>
                                    </ul>
                               </div>
                             </div>
                           </li>
-                          <li><a href="#profile"><img class="icon" src="img/icon_profile.png" /></a></li>
+                          <li><a href="profile.html"><img class="icon" src="img/icon_profile.png" /></a></li>
                           <li><a href="#email"><img class="icon" src="img/icon_email.png" /></a></li>
                       </ul>
                     </div>
@@ -177,7 +174,7 @@
           <div class="row">
               <div class="wrap_textbanner text-center">
                 <h1 class="lbl_banner2">HP All-in-One Printer Remote</h1>
-                <p class="lbl_info2 resizefont">
+                <p class="lbl_info2_index resizefont">
                   User Experience | Strategy | Mobile | Wireframe | Prototyping
                 </p>
 
@@ -282,7 +279,7 @@
   </div>
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-      <p class="lbl_researchinfo">
+      <p class="lbl_researchinfo lessmargintop">
         We conducted research and literature reviews, analyzed usage data, and investigated trend forecasts. I also helped the team to
         set up a tool to collect customer testimonials from both Google Play Store and iOS App Store that allowed us to obtain
         customer insights into our HP products, including design features and usage. From our studies, we discovered three major
@@ -316,7 +313,7 @@
   </div>
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-      <p class="lbl_researchinfo">
+      <p class="lbl_researchinfo lessmargintop">
         Through design workshops, we addressed issues identified in the research phase and created workflows to solve these
         problems and add new features to the app. I revised the overall information architecture structure by using card sorting. The
         team and I restructured the content of the app by considering how users look for information - renaming feature options to be
@@ -472,7 +469,7 @@
   </div>
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-      <p class="lbl_researchinfo">
+      <p class="lbl_researchinfo lessmargintop">
        I collaborated with the visual designers to explore ways of making the app more current and user friendly while still adhering to
         HP corporate branding guidelines. We finalized the direction based on comments from a user study, after which the visual
         designers worked on the visual components for all the wireframe pages. The visual designers then produced the assets used by
@@ -505,7 +502,7 @@
     <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">
-          <!-- <a href="#" class="footnav">
+         <!--  <a href="#" class="footnav">
             <img src="img/prjt1/icon_chevron_left.png" class="img_pagenav"><span class="lbl_footnav">Philips Gesture Controller</span><span class="lbl_nav2">Previuos</span>
           </a> -->
         </div>
@@ -527,15 +524,28 @@
 
 
 
+
+
 <footer class="container">
   <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wrap_lblcopy">
-      <label class="lbl_copy">&copy; 2017 VICTOR All rights reserved.</label>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hide_socialmedia">
       <ul class="wrap_socialmedia">
         <li>
-           <a href="https://www.linkedin.com/in/victor-ong-06238725/"><img class="footer-icon-linkedin" src="img/icon_linkedin.png" /></a>
+           <a href="https://www.linkedin.com/in/victor-ong-06238725/" target="_blank"><img class="footer-icon-linkedin" src="img/icon_linkedin.png" /></a>
+        </li>
+        <li>
+        <label class="clearfix_footer"></label>
+          <a href="mailto:voksvictor@yahoo.com"><img class="footer-icon-mail" src="img/icon_footeremail.png" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wrap_lblcopy">
+      <label class="lbl_copy">© 2017 VICTOR. All rights reserved.</label>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hide_socialmedia2">
+      <ul class="wrap_socialmedia">
+        <li>
+           <a href="https://www.linkedin.com/in/victor-ong-06238725/" target="_blank"><img class="footer-icon-linkedin" src="img/icon_linkedin.png" /></a>
         </li>
         <li>
         <label class="clearfix_footer"></label>
