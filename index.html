@@ -13,8 +13,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/sidebar-menu.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
      <style type="text/css">
 
@@ -48,10 +50,12 @@
        }
        a:hover, a:active{
         text-decoration: none !important;
+        /*border-bottom: 0 !important; */
        }
        .hoverremove:hover{
         background-color: #fff !important;
        }
+
      </style>
 
     
@@ -75,35 +79,39 @@
 
 
         <!-- collapse nav for mobile view -->
-        <div class="wrap_desknav2" id="wrap_desknav2">
-          <div class="morediv2">
-               <ul class="">
-                 <a href="#" class="hidemenu"><li>Home</li></a>
-                 <li class="dropdown hoverremove">
-                      <a href="#" class="dropdown-toggle lbl_drodown" data-toggle="dropdown">Portfolio
-                      <div class="clearmenu"></div>
-                      <b class="caret"></b></a>
-                      <ul class="dropdown-menu dropmobilenav">
-                        <a href="hp-aio.html" class="hidemenu"><li>HP All-in-One Printer Remote</li></a>
-                        <a href="pocketmath-rebranding.html" class="hidemenu"><li>Pocketmath Rebranding</li></a>
-                        <a href="pocketmath-web.html" class="hidemenu"><li>Pocketmath Website</li></a>
-                        <a href="hp-ews-html" class="hidemenu"><li>HP Embedded Web Server</li></a>
-                        <a href="aloha-branding.html" class="hidemenu"><li>Aloha Digital Branding</li></a>
-                        <a href="#" class="hidemenu"><li>HP Printer Assistant</li></a>
-                        <a href="osim-ux.html" class="hidemenu"><li>OSIM UX Platform</li></a>
-                        <a href="#" class="hidemenu"><li>OSIM Brand Color Strategy</li></a>
-                        <a href="#" class="hidemenu"><li>OSIM uVenus</li></a>
-                        <a href="#" class="hidemenu"><li>OSIM uKimono</li></a>
-                        <a href="#" class="hidemenu"><li>OSIM uGoGo</li></a>
-                        <a href="#" class="hidemenu"><li class="last">Phillips Gesture Controller</li></a>
-                      </ul>
-                    </li>
-                 <a href="profile.html" class="hidemenu"><li>My Profile</li></a>
-                 <a href="#" class="hidemenu"><li class="last">Email</li></a>
-               </ul>
-               <div class="cleafixnav"></div>
-          </div>
-        </div>
+        <section id="wrap_desknav2" class="pull-right wrap_desknav2 hidesection">
+            <ul class="sidebar-menu">
+              <li><a href="index.html"><span>Home</span></a></li>
+              <li>
+                <a href=""><span>Design Works</span><i class="fa fa-angle-left pull-right"></i></a>
+                <ul class="sidebar-submenu">
+                  <li><a href="hp-aio.html">HP All-in-One Printer Remote</a></li>
+                  <li><a href="pocketmath-rebranding.html">Pocketmath Rebranding</a></li>
+                  <li><a href="pocketmath-web.html">Pocketmath Website</a></li>
+                  <li><a href="hp-ews.html">HP Embedded Web Server</a></li>
+                  <li><a href="aloha-branding.html">Aloha Digital Branding</a></li>
+                  <li><a href="hp-pa.html">HP Printer Assistant</a></li>
+                  <li><a href="osim-ux.html">OSIM UX Platform</a></li>
+                  <li><a href="osim-brandcolor.html">OSIM Brand Color Strategy</a></li>
+                  <li><a href="osim-uvenus.html">OSIM uVenus</a></li>
+                  <li><a href="osim-ukimono.html">OSIM uKimono</a></li>
+                  <li><a href="osim-ugogo.html">OSIM uGoGo</a></li>
+                  <li><a href="phillips-gc.html">Phillips Gesture Controller</a></li>
+                </ul>
+              </li>
+             <li><a href="profile.html"><span>My Profile</span></a></li>
+             <li><a href="#"><span>Send Email</span></a></li>
+            </ul>
+          </section>
+
+
+
+
+
+
+
+
+
 
                 <a href="index.html">
                    <div id="brand" class="navbar-brand" href="#top">
@@ -118,38 +126,35 @@
                       </div>
                   </div>
                 </a>
-                 
+            </div>
 
-                    </div>
+
                     <div id="navbar" class="collapse navbar-collapse">
                        <ul class="nav navbar-nav navbar-right">
-                          <li><a href="#home"><img class="icon" src="img/icon_home.png" /></a></li>
+                          <li><a href="index.html"><label class="icon home"></label></a></li>
                           <li>
-                            <a class="desktopnav"><img class="icon" onclick="myFunction('wrap_desknav')" src="img/icon_portfolio.png" />
-                              <!-- collapse nav for desktop view -->
-                            <div id="wrap_desknav" class="wrap_desknav">
-                              <div class="arrow-up"></div>
-                              <div class="morediv">
+                            <button class="popover">
+                              <label class="popover__icon portfolio"></label>
+                              <div class="popover__dropdown morediv">
                                   <ul class="">
                                     <a href="hp-aio.html" class="hidemenu"><li>HP All-in-One Printer Remote</li></a>
                                     <a href="pocketmath-rebranding.html"onclick="myFunction()" class="hidemenu"><li>Pocketmath Rebranding</li></a>
                                     <a href="pocketmath-web.html"onclick="myFunction()" class="hidemenu"><li>Pocketmath Website</li></a>
                                     <a href="hp-ews.html"onclick="myFunction()" class="hidemenu"><li>HP Embedded Web Server</li></a>
                                     <a href="aloha-branding.html"onclick="myFunction()" class="hidemenu"><li>Aloha Digital Branding</li></a>
-                                    <a href="#"onclick="myFunction()" class="hidemenu"><li>HP Printer Assistant</li></a>
+                                    <a href="hp-pa.html"onclick="myFunction()" class="hidemenu"><li>HP Printer Assistant</li></a>
                                     <a href="osim-ux.html"onclick="myFunction()" class="hidemenu"><li>OSIM UX Platform</li></a>
-                                    <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM Brand Color Strategy</li></a>
-                                    <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uVenus</li></a>
-                                    <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uKimono</li></a>
-                                    <a href="#"onclick="myFunction()" class="hidemenu"><li>OSIM uGoGo</li></a>
-                                    <a href="#"onclick="myFunction()" class="hidemenu"><li class="last">Phillips Gesture Controller</li></a>
+                                    <a href="osim-brandcolor.html"onclick="myFunction()" class="hidemenu"><li>OSIM Brand Color Strategy</li></a>
+                                    <a href="osim-uvenus.html"onclick="myFunction()" class="hidemenu"><li>OSIM uVenus</li></a>
+                                    <a href="osim-ukimono.html"onclick="myFunction()" class="hidemenu"><li>OSIM uKimono</li></a>
+                                    <a href="osim-ugogo.html"onclick="myFunction()" class="hidemenu"><li>OSIM uGoGo</li></a>
+                                    <a href="phillips-gc.html"onclick="myFunction()" class="hidemenu"><li class="last">Phillips Gesture Controller</li></a>
                                   </ul>
                               </div>
-                            </div>
-                            </a>
+                            </button>
                           </li>
-                          <li><a href="profile.html"><img class="icon" src="img/icon_profile.png" /></a></li>
-                          <li><a href="#email"><img class="icon" src="img/icon_email.png" /></a></li>
+                          <li><a href="profile.html"><label class="icon profile"></label></a></li>
+                          <li><a href="#email"><label class="icon email"></label></a></li>
                       </ul>
                     </div>
                 </div>
@@ -251,7 +256,7 @@
           <a class="image" href="hp-aio.html">
             <img src="img/button_AIO.png" />
           </a>
-          <a href="project.html">
+          <a href="hp-aio.html">
             <div class="title">
               HP All-in-One Printer Remote
             </div>
@@ -263,7 +268,7 @@
           <a class="image" href="pocketmath-rebranding.html">
             <img src="img/button_pmbrand.png" />
           </a>
-          <a href="project_page_template.html">
+          <a href="pocketmath-rebranding.html">
             <div class="title">
               Pocketmath Rebranding
             </div>
@@ -272,7 +277,7 @@
       </div>
       <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
-          <a class="image" href="project_page_template.html">
+          <a class="image" href="pocketmath-web.html">
             <img src="img/button_pmwebsite.png" />
           </a>
           <a href="pocketmath-web.html">
@@ -284,7 +289,7 @@
       </div>
       <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom last">
         <div class="project">
-          <a class="image" href="project_page_template.html">
+          <a class="image" href="hp-ews.html">
             <img src="img/button_ews.png" />
           </a>
           <a href="hp-ews.html">
@@ -299,7 +304,7 @@
           <a class="image" href="aloha-branding.html">
             <img src="img/button_aloha.png" />
           </a>
-          <a href="project_page_template.html">
+          <a href="aloha-branding.html">
             <div class="title">
               Aloha Digital Branding
             </div>
@@ -308,10 +313,10 @@
       </div>
       <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
-          <a class="image" href="project_page_template.html">
+          <a class="image" href="hp-pa.html">
             <img src="img/button_printerassistant.png" />
           </a>
-          <a href="project_page_template.html">
+          <a href="hp-pa.html">
             <div class="title">
               HP Printer Assistant
             </div>
@@ -323,7 +328,7 @@
       
       <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
-          <a class="image" href="project_page_template.html">
+          <a class="image" href="osim-ux.html">
             <img src="img/button_uxplatform.png" />
           </a>
           <a href="osim-ux.html">
@@ -335,10 +340,10 @@
       </div>
       <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
-          <a class="image" href="project_page_template.html">
+          <a class="image" href="osim-brandcolor.html">
             <img src="img/button_colorstrategy.png" />
           </a>
-          <a href="project_page_template.html">
+          <a href="osim-brandcolor.html">
             <div class="title">
               OSIM Brand Color Strategy
             </div>
@@ -347,10 +352,10 @@
       </div>
       <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
-          <a class="image" href="project_page_template.html">
+          <a class="image" href="osim-uvenus.html">
             <img src="img/button_uvenus.png" />
           </a>
-          <a href="project_page_template.html">
+          <a href="osim-uvenus.html">
             <div class="title">
               OSIM uVenus
             </div>
@@ -359,10 +364,10 @@
       </div>
       <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
-          <a class="image" href="project_page_template.html">
+          <a class="image" href="osim-ukimono.html">
             <img src="img/button_ukimono.png" />
           </a>
-          <a href="project_page_template.html">
+          <a href="osim-ukimono.html">
             <div class="title">
               OSIM uKimono
             </div>
@@ -371,10 +376,10 @@
       </div>
       <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom">
         <div class="project">
-          <a class="image" href="project_page_template.html">
+          <a class="image" href="osim-ugogo.html">
             <img src="img/button_ugogo.png" />
           </a>
-          <a href="project_page_template.html">
+          <a href="osim-ugogo.html">
             <div class="title">
               OSIM uGoGo
             </div>
@@ -383,10 +388,10 @@
       </div>
       <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 margin_bottom last">
         <div class="project">
-          <a class="image" href="project_page_template.html">
+          <a class="image" href="phillips-gc.html">
             <img src="img/button_gesturecontrol.png" />
           </a>
-          <a href="project_page_template.html">
+          <a href="phillips-gc.html">
             <div class="title">
               Phillips Gesture Controller
             </div>
@@ -484,9 +489,49 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<script src="js/sidebar-menu.js"></script>
+  <script>
+    $.sidebarMenu($('.sidebar-menu'))
+  </script>
+
+
+
+
 <script>
     $(document).ready(function(){
     var myNavBar = {
@@ -507,7 +552,6 @@
                 this.flagAdd = false;
             }
         },
-
         remove: function() {
             for(var i=0; i < this.elements.length; i++) {
                 document.getElementById(this.elements[i]).className =
@@ -524,10 +568,6 @@
         "brand"
     ]);
 
-    /**
-     * Function that manage the direction
-     * of the scroll
-     */
     function offSetManager(){
 
         var yOffset = 0;
@@ -553,16 +593,11 @@
 
   <script type="text/javascript">
     jQuery(document).ready(function($){
-      // browser window scroll (in pixels) after which the "back to top" link is shown
       var offset = 300,
-        //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
         offset_opacity = 1200,
-        //duration of the top scrolling animation (in ms)
         scroll_top_duration = 700,
-        //grab the "back to top" link
         $back_to_top = $('.cd-top');
 
-      //hide or show the "back to top" link
       $(window).scroll(function(){
         ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
         if( $(this).scrollTop() > offset_opacity ) { 
@@ -570,7 +605,6 @@
         }
       });
 
-      //smooth scroll to top
       $back_to_top.on('click', function(event){
         event.preventDefault();
         $('body,html').animate({
@@ -597,43 +631,44 @@ function myFunction(wrap_desknav) {
 
 
 
-
-
-
-
- <!-- <script>
-    $(document).ready(function(){
-        $(".desktopnav").click(function(){
-            $(".wrap_desknav").show(70);
-        });
-        $(".hidemenu").click(function(){
-            $(".wrap_desknav").hide(70);
-        });
-    });
-</script> -->
-
 <script>
     $(document).ready(function(){
         $(".mobilenav").click(function(){
-            $(".wrap_desknav2").show(70);
+            $(".wrap_desknav2").show(100);
         });
-        $(".hidemenu").click(function(){
-            $(".wrap_desknav2").hide(70);
-        });
+        // $(".hidemenu").click(function(){
+        //     $(".wrap_desknav2").hide(70);
+        // });
+
+        // $(".wrap_desknav2").click(function(){
+        //     $(".wrap_desknav2").hide(400);
+        // });
     });
-</script>
+</script> 
 
 <script type="text/javascript">
-  function resize()
-    {
-        var heights = window.innerHeight;
-        document.getElementById("#wrap_desknav2").style.height = heights + "px";
+  var $body = $('body');
+  var $popovers = $('.popover__icon');
+  var $dropdowns = $('.popover__dropdown');
+
+  var OPEN_CLASS = 'is-open';
+
+  $popovers.on('click', (e) => {
+    e.preventDefault();
+    var $dropdown = $(e.currentTarget).next();
+    $dropdown.toggleClass(OPEN_CLASS);
+  });
+
+  $body.on('click touchstart', (e) => {
+    var el = e.target;
+    var $parentPopover = $(el).parents('.popover');
+    
+    if (!$parentPopover.length) {
+      $dropdowns.removeClass(OPEN_CLASS);
     }
-    resize();
-    window.onresize = function() {
-        resize();
-    };
+  });
 </script>
-  
+
+
   </body>
 </html>
