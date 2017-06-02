@@ -17,6 +17,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/sidebar-menu.css" rel="stylesheet">
+    <link href="css/jquery-popover-0.0.3.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
      <style type="text/css">
 
@@ -129,9 +130,10 @@
                        <ul class="nav navbar-nav navbar-right">
                           <li><a href="index.html"><label class="icon home"></label></a></li>
                           <li>
-                            <button class="popover">
-                              <label class="popover__icon portfolio"></label>
-                              <div class="popover__dropdown morediv">
+                            <span class="popover-wrapper text-center">
+                              <label class="icon portfolio addmargin_nav" data-role="popover" data-target="example-popover-2" data-placement="bottom"></label>
+                              <div class="popover-modal example-popover-2">
+                                <div class="popover-body morediv">
                                   <ul class="">
                                     <a href="hp-aio.html" class="hidemenu"><li>HP All-in-One Printer Remote</li></a>
                                     <a href="pocketmath-rebranding.html"onclick="myFunction()" class="hidemenu"><li>Pocketmath Rebranding</li></a>
@@ -146,8 +148,9 @@
                                     <a href="osim-ugogo.html"onclick="myFunction()" class="hidemenu"><li>OSIM uGoGo</li></a>
                                     <a href="phillips-gc.html"onclick="myFunction()" class="hidemenu"><li class="last">Phillips Gesture Controller</li></a>
                                   </ul>
+                                </div>
                               </div>
-                            </button>
+                            </span>
                           </li>
                           <li><a href="profile.html" class="active2 remove_paddingnav"><label class="icon profile"></label></a></li>
                           <li><a href="#email"><label class="icon email"></label></a></li>
@@ -571,6 +574,11 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-popover-0.0.3.js"></script>
+<script>
+    $('[data-role="popover"]').popover();
+</script>
+
 
 <script src="js/sidebar-menu.js"></script>
 <script>
@@ -695,28 +703,6 @@ function myFunction(wrap_desknav) {
     window.onresize = function() {
         resize();
     };
-</script>
-<script type="text/javascript">
-  var $body = $('body');
-  var $popovers = $('.popover__icon');
-  var $dropdowns = $('.popover__dropdown');
-
-  var OPEN_CLASS = 'is-open';
-
-  $popovers.on('click', (e) => {
-    e.preventDefault();
-    var $dropdown = $(e.currentTarget).next();
-    $dropdown.toggleClass(OPEN_CLASS);
-  });
-
-  $body.on('click touchstart', (e) => {
-    var el = e.target;
-    var $parentPopover = $(el).parents('.popover');
-    
-    if (!$parentPopover.length) {
-      $dropdowns.removeClass(OPEN_CLASS);
-    }
-  });
 </script>
   </body>
 </html>
