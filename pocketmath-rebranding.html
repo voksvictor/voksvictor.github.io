@@ -82,7 +82,7 @@
           <nav id="header" class="navbar navbar-fixed-top">
                 <div id="header-container" class="container navbar-container">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle mobilenav"  >
+                        <button type="button" class="navbar-toggle" data-toggle="modal" data-target="#myModal2"  >
                         <!-- data-toggle="collapse" data-target="#navbar" -->
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar menu"></span>
@@ -90,33 +90,39 @@
                             <span class="icon-bar menu"></span>
                         </button>
 
-
-
-                      <!-- collapse nav for mobile view -->
-                      <section style="width: 300px" id="wrap_desknav2" class="pull-right wrap_desknav2">
-                          <ul class="sidebar-menu">
-                            <li><a href="index.html"><span>Home</span></a></li>
-                            <li>
-                              <a href=""><span>Design Works</span><i class="fa fa-angle-left pull-right"></i></a>
-                              <ul class="sidebar-submenu">
-                                <li><a href="hp-aio.html">HP All-in-One Printer Remote</a></li>
-                                <li><a href="pocketmath-rebranding.html">Pocketmath Rebranding</a></li>
-                                <li><a href="pocketmath-web.html">Pocketmath Website</a></li>
-                                <li><a href="hp-ews.html">HP Embedded Web Server</a></li>
-                                <li><a href="aloha-branding.html">Aloha Digital Branding</a></li>
-                                <li><a href="hp-pa.html">HP Printer Assistant</a></li>
-                                <li><a href="osim-ux.html">OSIM UX Platform</a></li>
-                                <li><a href="osim-brandcolor.html">OSIM Brand Color Strategy</a></li>
-                                <li><a href="osim-uvenus.html">OSIM uVenus</a></li>
-                                <li><a href="osim-ukimono.html">OSIM uKimono</a></li>
-                                <li><a href="osim-ugogo.html">OSIM uGoGo</a></li>
-                                <li><a href="phillips-gc.html">Phillips Gesture Controller</a></li>
-                              </ul>
-                            </li>
-                           <li><a href="profile.html"><span>My Profile</span></a></li>
-                           <li><a href="#"><span>Send Email</span></a></li>
-                          </ul>
-                        </section>
+                          <!-- collapse nav for mobile view -->
+                          <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-body">
+                                    <section id="wrap_desknav2" class="">
+                                    <ul class="sidebar-menu">
+                                      <li><a href="index.html"><span>Home</span></a></li>
+                                      <li>
+                                        <a href=""><span>Design Works</span><i class="fa fa-angle-left pull-right"></i></a>
+                                        <ul class="sidebar-submenu">
+                                          <li><a href="hp-aio.html">HP All-in-One Printer Remote</a></li>
+                                          <li><a href="pocketmath-rebranding.html">Pocketmath Rebranding</a></li>
+                                          <li><a href="pocketmath-web.html">Pocketmath Website</a></li>
+                                          <li><a href="hp-ews.html">HP Embedded Web Server</a></li>
+                                          <li><a href="aloha-branding.html">Aloha Digital Branding</a></li>
+                                          <li><a href="hp-pa.html">HP Printer Assistant</a></li>
+                                          <li><a href="osim-ux.html">OSIM UX Platform</a></li>
+                                          <li><a href="osim-brandcolor.html">OSIM Brand Color Strategy</a></li>
+                                          <li><a href="osim-uvenus.html">OSIM uVenus</a></li>
+                                          <li><a href="osim-ukimono.html">OSIM uKimono</a></li>
+                                          <li><a href="osim-ugogo.html">OSIM uGoGo</a></li>
+                                          <li><a href="phillips-gc.html">Phillips Gesture Controller</a></li>
+                                        </ul>
+                                      </li>
+                                     <li><a href="profile.html"><span>My Profile</span></a></li>
+                                     <li><a href="#"><span>Send Email</span></a></li>
+                                    </ul>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
 
 
 
@@ -258,53 +264,54 @@
 
 
 
-
-<div class="clear_top2"></div>
-<div class="container">
-  <div class="row text-center">
-      <label class="lbl_research">Brand Analysis</label>
-  </div>
-</div>
-
-
-<div class="clear_top3"></div>
-<div class="container">
-  <div class="row">
-     <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 wrap_imgresearch">
-      <img src="img/prjt4/img_pmbrand_analysis.png">
+<div class="bg_gray">
+    <div class="clear_top2"></div>
+    <div class="container">
+      <div class="row text-center">
+          <label class="lbl_research">Brand Analysis</label>
+      </div>
     </div>
-  </div>
-  <div class="clear_img"></div>
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 wrap_imgresearch">
+
+
+    <div class="clear_top3 text-center"><label class="linemark3"></label></div>
+    <div class="container">
       <div class="row">
-         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <label class="lbl_overview">Understanding the Existing Brand</label><br>
-          <p class="lbl_overview_info2">
-            I conducted meetings with key stakeholders to align
-            expectations and to set end goals and clear objectives of
-            the re-branding exercise. I worked with a brand agency to
-            analyze the current state of the brand, whose final report
-            identified gaps and inconsistencies - setting the
-            foundation for the re-design.
-          </p>
+         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 wrap_imgresearch">
+          <img src="img/prjt4/img_pmbrand_analysis.png">
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <label class="lbl_overview">Establishing the Core Values</label><br>
-          <p class="lbl_overview_info2">
-           I lead a company-wide effort to identify and create the
-          company ’s core values. We conducted focus groups to
-          gather employee feedback, and using these insights, the
-          team drafted a set of core values. The draft was tested and
-          refined before being finalized as the core values used in
-          the new brand.
-          </p>
+      </div>
+      <div class="clear_img"></div>
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 wrap_imgresearch">
+          <div class="row">
+             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <label class="lbl_overview">Understanding the Existing Brand</label><br>
+              <p class="lbl_overview_info2">
+                I conducted meetings with key stakeholders to align
+                expectations and to set end goals and clear objectives of
+                the re-branding exercise. I worked with a brand agency to
+                analyze the current state of the brand, whose final report
+                identified gaps and inconsistencies - setting the
+                foundation for the re-design.
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <label class="lbl_overview">Establishing the Core Values</label><br>
+              <p class="lbl_overview_info2">
+               I lead a company-wide effort to identify and create the
+              company ’s core values. We conducted focus groups to
+              gather employee feedback, and using these insights, the
+              team drafted a set of core values. The draft was tested and
+              refined before being finalized as the core values used in
+              the new brand.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  <div class="clearbottom_gray"></div>
 </div>
-
 
 
 
@@ -323,7 +330,7 @@
 </div>
 
 
-<div class="clear_top3"></div>
+<div class="clear_top3 text-center"><label class="linemark3"></label></div>
 <div class="container">
   <div class="row">
      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 wrap_imgresearch">
@@ -378,7 +385,8 @@
   </div>
 </div>
 
-<div class="clear_top3"></div>
+<div class="clear_top3 text-center"><label class="linemark3"></label></div>
+<div class="clear_top2"></div>
 <div class="container">
   <div class="row">
      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 wrap_imgresearch">
@@ -395,6 +403,7 @@
       </p>
     </div>
   </div>
+  <div class="clearbottom_gray"></div>
 </div>
 
 
@@ -404,32 +413,35 @@
 
 
 
-<div class="clear_top2"></div>
-<div class="container">
-  <div class="row text-center">
-      <label class="lbl_research">Wireframe</label>
-  </div>
-</div>
 
-<div class="clear_top3"></div>
-<div class="container">
-  <div class="row">
-     <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 wrap_imgresearch">
-      <img src="img/prjt4/img_pmbrand_wireframes.png">
+<div class="bg_gray">
+  <div class="clear_top2"></div>
+  <div class="container">
+    <div class="row text-center">
+        <label class="lbl_research">Wireframe</label>
     </div>
   </div>
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-      <p class="lbl_researchinfo lessmargintop">
-      Through independent research, I learned that web portals are commonly used across industries for housing brand platforms
-      and making them available to everyone in a company. Based on the insights gathered from the focus groups, I created a feature
-      list and used it to build the information architecture (IA). I created wireframes for the site to better communicate the design
-      intent, as well as to gather user comments.
-      </p>
+
+  <div class="clear_top3 text-center"><label class="linemark3"></label></div>
+  <div class="container">
+    <div class="row">
+       <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 wrap_imgresearch">
+        <img src="img/prjt4/img_pmbrand_wireframes.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+        <p class="lbl_researchinfo lessmargintop">
+        Through independent research, I learned that web portals are commonly used across industries for housing brand platforms
+        and making them available to everyone in a company. Based on the insights gathered from the focus groups, I created a feature
+        list and used it to build the information architecture (IA). I created wireframes for the site to better communicate the design
+        intent, as well as to gather user comments.
+        </p>
+      </div>
     </div>
   </div>
+  <div class="clearbottom_gray"></div>
 </div>
-
 
 
 
@@ -446,7 +458,7 @@
   </div>
 </div>
 
-<div class="clear_top3"></div>
+<div class="clear_top3 text-center"><label class="linemark3"></label></div>
 <div class="container">
   <div class="row">
      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 wrap_imgresearch">
