@@ -34,84 +34,184 @@ body {
 /*BANNER SECTION*/
 .banner_bg{
 	background-image:url(../img/img_homecover.png);
-	background-size: cover;
-    min-height: 100%;
+	height: 100%;
     padding-bottom: 95px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
 
 .banner_bg_prjt1{
   background-image:url(../img/prjt1/img_aiocover2.png);
     height: 100%;
     padding-bottom: 95px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
-
 
 .banner_bg_prjt2{
   background-image:url(../img/prjt2/img_ewscover.png);
-  background-size: cover;
-    height: 100%;
+  height: 100%;
     padding-bottom: 95px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
-
 
 .banner_bg_prjt3{
   background-image:url(../img/prjt3/img_alohabrandcover.png);
-  background-size: cover;
-    height: 100%;
+  height: 100%;
     padding-bottom: 95px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-
 
 .banner_bg_prjt4{
   background-image:url(../img/prjt4/img_pmbrandcover.png);
-  background-size: cover;
-    height: 100%;
+  height: 100%;
     padding-bottom: 95px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-
 
 .banner_bg_prjt5{
   background-image:url(../img/prjt5/img_pmwebsitecover.png);
-  background-size: cover;
-    height: 100%;
+  height: 100%;
     padding-bottom: 95px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-
 
 .banner_bg_prjt6{
   background-image:url(../img/prjt6/img_osimuxcover.png);
-  background-size: cover;
-    height: 100%;
+  height: 100%;
     padding-bottom: 95px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner_bg_prjt7{
   background-image:url(../img/prjt7/img_hpprintassistantcover.png);
-  background-size: cover;
-    height: 100%;
+  height: 100%;
     padding-bottom: 95px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner_bg_prjt8{
+  background-image:url(../img/prjt8/img_osimcolor.png);
+  height: 100%;
+    padding-bottom: 95px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner_bg_prjt9{
+  background-image:url(../img/prjt9/img_osimvenuscover.png);
+  height: 100%;
+    padding-bottom: 95px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner_bg_prjt10{
+  background-image:url(../img/prjt10/img_osimukimonocover.png);
+  height: 100%;
+    padding-bottom: 95px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner_bg_prjt11{
+  background-image:url(../img/prjt11/img_osimugogocover.png);
+  height: 100%;
+    padding-bottom: 95px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner_bg_prjt12{
+  background-image:url(../img/prjt12/img_philipscover.png);
+  height: 100%;
+    padding-bottom: 95px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 /*END*/
 
@@ -359,9 +459,22 @@ body {
 .linemark{
   height: 2px;
   width: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px !important;
   background-color: #da375f;
 }
+.linemark2{
+  height: 2px;
+  width: 30px;
+  margin: 22px 30px !important;
+  background-color: #da375f;
+}
+.linemark3{
+  height: 2px;
+  width: 30px;
+  margin: 28px 46px;
+  background-color: #da375f;
+}
+
 .quote{
   width: 65%;
   margin: auto !important;
@@ -517,7 +630,7 @@ body {
 }
 footer{
   margin-top: 125px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .lbl_copy{
   font-family: "Avenir", sans-serif;
@@ -732,6 +845,99 @@ ul.wrap_socialmedia li img{
 
 
 
+.modal-body{
+  padding: 0 !important;
+}
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 320px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+  padding: 15px 15px 80px;
+}
+.modal-backdrop{
+  z-index: 0 !important;
+}
+
+.modal.right.fade .modal-dialog {
+  right: -320px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+  
+.modal.right.fade.in .modal-dialog {
+  right: 0;
+}
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+.modal-header {
+  border-bottom-color: #EEEEEE;
+  background-color: #FAFAFA;
+}
+.demo-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: #212121;
+  text-align: center;
+}
+.demo-footer > a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+.bg_gray{
+  background-color: #f8f8f8;
+}
+.clearbottom_gray{
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -814,14 +1020,15 @@ ul.wrap_socialmedia li img{
 .clear_top2{
   height: 50px;
 }
-.clear_top3{
+/*.clear_top3{
   height: 30px;
-}
+}*/
 .lbl_research{
   font-family: "Avenir", sans-serif;
   font-weight: normal;
   font-size: 24px;
   color: #3b444f;
+  margin-bottom: 0 !important;
 }
 .wrap_imgresearch{
 
@@ -882,6 +1089,10 @@ footer{
 .addpadding{
   padding-bottom: 10px;
 }
+/*.addmargin_bottom{
+  margin-bottom: 25px;
+  display: none;
+}*/
 /*END*/
 
 
@@ -1066,9 +1277,11 @@ ul.wrap_socialmedia2 li img{
 /*End*/
 
 
+/*label{
+  margin-bottom: 0 !important;
+}
 
-
-
+*/
 
 
 
@@ -1268,15 +1481,18 @@ ul.wrap_socialmedia2 li img{
   .clear_top2{
     height: 70px; 
   }
-  .clear_top3{
+  /*.clear_top3{
     height: 52px;
-  }
+  }*/
   .lbl_research{
     font-size: 21px;
   }
   .lbl_researchinfo{
     font-size: 16px;
     margin-top: 20px;
+  }
+  .linemark3{
+    margin: 22px 30px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -1307,8 +1523,11 @@ ul.wrap_socialmedia2 li img{
   .clear_top2{
     height: 50px;
   }
-  .clear_top3{
+ /* .clear_top3{
     height: 36px;
+  }*/
+  .linemark3{
+    margin: 18px 24px;
   }
   .lbl_researchinfo{
     margin-top: 20px;
@@ -1322,6 +1541,9 @@ ul.wrap_socialmedia2 li img{
   }
   .lbl_nav2{
     display: inline-block;
+  }
+  .addmargin_bottom{
+    margin-bottom: 25px;
   }
 }
 /*end*/

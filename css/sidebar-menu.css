@@ -41,25 +41,15 @@
 
 .sidebar-menu {
   list-style: none;
-  /*margin: 40px 10px 30px 30px;*/
   padding: 40px 10px 30px 40px;
-  background-color: #fff; 
-  /*float: right;*/
   width: 300px;
-  /*min-height: 650px;*/
   bottom: 0;
   top: 0;
-  position: absolute;
-  right: 0;
-  z-index: 999999;
-  overflow-y: auto;
 }
   .sidebar-menu > li {
     position: relative;
     margin: 0;
     border-bottom: 1px solid #f0efef;
-    /*padding: 0 30px; */
-    /*text-indent: 30px;*/
 }
     .sidebar-menu > li > a {
       padding: 12px 5px 12px 15px;
@@ -124,7 +114,7 @@
       font-weight: lighter;
       font-size: 14px;
       text-transform: none;
-      padding: 12px 5px 12px 15px;
+      padding: 12px 5px 12px 5px;
       display: block;
       border-bottom: 1px solid #f0efef;
     }
