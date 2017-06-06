@@ -1383,6 +1383,7 @@ ul.wrap_socialmedia2 li img{
   }
   .banner_bg{
     padding-bottom: 0;
+	  background-attachment: scroll;
   }
   .clear_fix{
     height: 90px;
