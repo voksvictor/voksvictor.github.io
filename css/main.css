@@ -35,12 +35,15 @@ body {
 .banner_bg{
 	background-image:url(../img/img_homecover.png);
 	height: 100%;
-	width: 100%;
     padding-bottom: 95px;
+    width: 100%;
      background-repeat: no-repeat; 
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;       
-    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 	
 	@media (max-width: 767px) {
         background-attachment: scroll;
@@ -49,12 +52,16 @@ body {
 
 .banner_bg_prjt1{
   background-image:url(../img/prjt1/img_aiocover2.png);
-    min-height: 100%;
+  height: 100%;
     padding-bottom: 95px;
+    width: 100%;
      background-repeat: no-repeat; 
-    /*background-position: center;*/
+    background-position: center;
     background-attachment: fixed;       
-    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 	
 	@media (max-width: 767px) {
         background-attachment: scroll;
