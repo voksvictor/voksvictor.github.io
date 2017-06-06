@@ -41,6 +41,10 @@ body {
     background-position: center center;
     background-attachment: fixed;       
     background-size: cover;
+	
+	@media (max-width: 767px) {
+        background-attachment: scroll;
+    }
 }
 
 .banner_bg_prjt1{
@@ -51,6 +55,10 @@ body {
     /*background-position: center;*/
     background-attachment: fixed;       
     background-size: cover;
+	
+	@media (max-width: 767px) {
+        background-attachment: scroll;
+    }
 }
 
 .banner_bg_prjt2{
