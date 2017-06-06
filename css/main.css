@@ -45,7 +45,7 @@ body {
     -o-background-size: cover;
     background-size: cover; 
 	
-	@media (max-width: 769px) {
+	@media (max-width: 768px) {
         background-attachment: scroll;
     }
 }
@@ -63,7 +63,7 @@ body {
     -o-background-size: cover;
     background-size: cover; 
 	
-	@media (max-width: 769px) {
+	@media (max-width: 768px) {
         background-attachment: scroll;
     }
 }
@@ -1505,6 +1505,13 @@ ul.wrap_socialmedia2 li img{
   }
 }
 @media only screen and (max-width: 768px) {
+	
+  .banner_bg_prjt1, .banner_bg_prjt2, .banner_bg_prjt3,
+  .banner_bg_prjt4, .banner_bg_prjt5, .banner_bg_prjt6,
+	.banner_bg_prjt7, .banner_bg_prjt8, .banner_bg_prjt9,
+	.banner_bg_prjt10, .banner_bg_prjt11, .banner_bg_prjt12 {
+		background-attachment: scroll;
+	}
   .clear_top{
     height: 40px;
   }
