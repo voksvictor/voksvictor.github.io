@@ -215,20 +215,16 @@ body {
     position: relative;
 }
 
-.banner_bg_prjt12:after,
-.banner_bg_prjt12::after{
-      content:"";
-      position:fixed; /* stretch a fixed position to the whole screen */
-      top:0;
-      height:100%; /* fix for mobile browser address bar appearing disappearing */
-      left:0;
-      right:0;
-      z-index:-1; /* needed to keep in the background */
-      background: url(../img/prjt12/img_philipscover.png) center center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+.banner_bg_prjt12:before {
+  background-color: white;
+  background-size: cover;
+  z-index: -3;
+  content: " ";
+  position: fixed;
+  background: url(../img/prjt12/img_philipscover.png) no-repeat center center;
+  will-change: transform;
+  width: 100%;
+  height: 100%;
 }
 /*END*/
 
