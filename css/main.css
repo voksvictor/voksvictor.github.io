@@ -214,7 +214,8 @@ body {
     background-size: cover;
 }
 
-.banner_bg_prjt12:after{
+.banner_bg_prjt12:after,
+.banner_bg_prjt12::after{
       content:"";
       position:fixed; /* stretch a fixed position to the whole screen */
       top:0;
