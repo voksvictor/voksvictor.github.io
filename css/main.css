@@ -207,11 +207,26 @@ body {
     width: 100%;
      background-repeat: no-repeat; 
     background-position: center;
-    background-attachment: scroll;     
+    background-attachment: fixed;     
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.banner_bg_prjt12:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100%; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url(../img/prjt12/img_philipscover.png) center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 /*END*/
 
