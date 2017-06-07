@@ -44,10 +44,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
-	
-	@media (max-width: 768px) {
-        background-attachment: scroll;
-    }
 }
 
 .banner_bg_prjt1{
@@ -62,10 +58,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
-	
-	@media (max-width: 768px) {
-        background-attachment: scroll;
-    }
 }
 
 .banner_bg_prjt2{
