@@ -33,198 +33,199 @@ body {
 
 /*BANNER SECTION*/
 .banner_bg{
-	background-image:url(../img/img_homecover.png);
-	height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
+  background-image:url(../img/img_homecover.png);
+  height: 100%;
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;     
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 
 .banner_bg_prjt1{
   background-image:url(../img/prjt1/img_aiocover2.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;       
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 
 .banner_bg_prjt2{
   background-image:url(../img/prjt2/img_ewscover.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;       
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 
 .banner_bg_prjt3{
   background-image:url(../img/prjt3/img_alohabrandcover.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;       
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .banner_bg_prjt4{
   background-image:url(../img/prjt4/img_pmbrandcover.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;      
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .banner_bg_prjt5{
   background-image:url(../img/prjt5/img_pmwebsitecover.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;       
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .banner_bg_prjt6{
   background-image:url(../img/prjt6/img_osimuxcover.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;      
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .banner_bg_prjt7{
   background-image:url(../img/prjt7/img_hpprintassistantcover.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;        
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .banner_bg_prjt8{
   background-image:url(../img/prjt8/img_osimcolor.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;        
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .banner_bg_prjt9{
   background-image:url(../img/prjt9/img_osimvenuscover.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;       
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .banner_bg_prjt10{
   background-image:url(../img/prjt10/img_osimukimonocover.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;       
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .banner_bg_prjt11{
   background-image:url(../img/prjt11/img_osimugogocover.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  padding-bottom: 95px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;       
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .banner_bg_prjt12{
   background-image:url(../img/prjt12/img_philipscover.png);
   height: 100%;
-    padding-bottom: 95px;
-    width: 100%;
-     background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-}
-
-.banner_bg_prjt12:before {
-  background-color: white;
-  background-size: cover;
-  z-index: -3;
-  content: " ";
-  position: fixed;
-  background: url(../img/prjt12/img_philipscover.png) no-repeat center center;
-  will-change: transform;
+  padding-bottom: 95px;
   width: 100%;
-  height: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+  /*background-attachment: fixed; */  
+  background-attachment: scroll;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
 }
 /*END*/
 
