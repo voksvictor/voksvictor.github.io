@@ -1338,7 +1338,7 @@ ul.wrap_socialmedia2 li img{
 
 
 /*FORCING CSS DESIGN*/
-@media only screen and (min-width: 769px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .linesep{
     width: 80%
   }
@@ -1357,7 +1357,7 @@ ul.wrap_socialmedia2 li img{
 
 
 /*homepage*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .icon{
     display: none;
   }
@@ -1454,7 +1454,7 @@ ul.wrap_socialmedia2 li img{
 
 
 /*Project*/
-@media only screen and (min-width: 769px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .lbl_banner2{
     font-size: 40px;
   }
@@ -1496,7 +1496,7 @@ ul.wrap_socialmedia2 li img{
     margin: 22px 30px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	
   .banner_bg_prjt1, .banner_bg_prjt2, .banner_bg_prjt3,
   .banner_bg_prjt4, .banner_bg_prjt5, .banner_bg_prjt6,
@@ -1570,7 +1570,7 @@ ul.wrap_socialmedia2 li img{
 
 
 /*Profile*/
-@media only screen and (min-width: 769px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .img_prof{
     width: 140px;
     height: 140px;
@@ -1613,7 +1613,7 @@ ul.wrap_socialmedia2 li img{
     min-height: 100%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .hidelogo{
     display: none;
   }
