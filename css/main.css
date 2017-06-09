@@ -63,7 +63,8 @@ body {
 }
 
 .banner_bg_prjt2{
-  background-image:url(../img/prjt2/img_ewscover.png);
+  /*background-image:url(../img/prjt2/img_ewscover.png);*/
+  background-image:url(../img/prjt2/img_ewsnewcover.png);
   height: 100%;
   padding-bottom: 95px;
   width: 100%;
