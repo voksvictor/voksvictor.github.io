@@ -56,10 +56,10 @@ body {
   background-position: center;
   /*background-attachment: fixed; */  
   background-attachment: scroll;       
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
 }
 
 .banner_bg_prjt2{
