@@ -418,17 +418,17 @@ body {
   font-family: "Avenir Medium", sans-serif;
   font-weight: medium;
   font-size: 98px;
-  color: #3c444f;
+  color: #3b444f;
 }
 .lbl_chinese{
   font-weight: lighter !important;
-  color: #67747c !important;
+  color: #3b444f !important;
 }
 .lbl_info{
   font-family: "Avenir", sans-serif;
     font-weight: lighter;
     font-size: 21px;
-    color: #67747c;
+    color: #3b444f;
     text-transform: uppercase;
     margin-top: 15px;
 }
