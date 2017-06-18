@@ -33,200 +33,185 @@ body {
 
 /*BANNER SECTION*/
 .banner_bg{
-  background-image:url(../img/img_homecover.png);
-  height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;     
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
+	background-image:url(../img/img_homecover.png);
+	height: 100%;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner_bg_prjt1{
   background-image:url(../img/prjt1/img_aiocover2.png);
-  height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;       
-  -webkit-background-size: auto 100%;
-  -moz-background-size: auto 100%;
-  -o-background-size: auto 100%;
-  background-size: auto 100%;
+    height: 100%;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 
 .banner_bg_prjt2{
-  /*background-image:url(../img/prjt2/img_ewscover.png);*/
-  background-image:url(../img/prjt2/img_ewsnewcover.png);
+  background-image:url(../img/prjt2/img_ewscover.png);
   height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;       
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 
 .banner_bg_prjt3{
   background-image:url(../img/prjt3/img_alohabrandcover.png);
   height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;       
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner_bg_prjt4{
   background-image:url(../img/prjt4/img_pmbrandcover.png);
   height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;      
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner_bg_prjt5{
   background-image:url(../img/prjt5/img_pmwebsitecover.png);
   height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;       
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner_bg_prjt6{
   background-image:url(../img/prjt6/img_osimuxcover.png);
   height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;      
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner_bg_prjt7{
   background-image:url(../img/prjt7/img_hpprintassistantcover.png);
   height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;        
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner_bg_prjt8{
   background-image:url(../img/prjt8/img_osimcolor.png);
   height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;        
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner_bg_prjt9{
   background-image:url(../img/prjt9/img_osimvenuscover.png);
   height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;       
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner_bg_prjt10{
   background-image:url(../img/prjt10/img_osimukimonocover.png);
   height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;       
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner_bg_prjt11{
   background-image:url(../img/prjt11/img_osimugogocover.png);
   height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;       
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .banner_bg_prjt12{
   background-image:url(../img/prjt12/img_philipscover.png);
   height: 100%;
-  padding-bottom: 95px;
-  width: 100%;
-  background-repeat: no-repeat; 
-  background-position: center;
-  /*background-attachment: fixed; */  
-  background-attachment: scroll;  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: relative;
+    padding-bottom: 84px;
+    width: 100%;
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 /*END*/
 
@@ -926,9 +911,14 @@ ul.wrap_socialmedia li img{
   background-color: #f8f8f8;
 }
 .clearbottom_gray{
-  height: 30px;
+  height: 50px;
 }
-
+.clearbottom_gray2{
+  height: 50px;
+}
+p{
+  margin: 0 !important;
+}
 
 
 
@@ -1068,7 +1058,7 @@ ul.wrap_socialmedia li img{
   color: #67747c;
 }
 p{
-  margin: 0 0 30px !important;
+  /*margin: 0 0 30px !important;*/
 }
 .img_pagenav{
   width: 12px;
@@ -1104,6 +1094,9 @@ footer{
 .addpadding{
   padding-bottom: 10px;
 }
+.clear_top3_addpading{
+  height: 15px;
+}
 /*.addmargin_bottom{
   margin-bottom: 25px;
   display: none;
@@ -1120,9 +1113,13 @@ footer{
 
 
 
+
+
+
+
 /*Profile*/
 .clear_fix_prof{
-  height: 220px;
+  height: 240px;
 }
 .wrap_profile_head{
   box-shadow: 0 0 10px rgba(0,0,0,.2);
@@ -1137,6 +1134,7 @@ footer{
   margin-top: -110px;
   padding: 5px;
   border: 1px solid #e4e4e4;
+  background-color: #fff;
 }
 
 ul.wrap_socialmedia2{
@@ -1173,9 +1171,10 @@ ul.wrap_socialmedia2 li img{
 .lbl_profsum{
   font-family: "Avenir", sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   color: #3b444f;
-  /*padding: 30px;*/
+  /*padding-bottom: 10px;*/
+  padding-top: 20px;
 }
 .clear_top_content_prof{
   height: 40px;
@@ -1205,14 +1204,14 @@ ul.wrap_socialmedia2 li img{
 .lbl_pos{
   font-family: "Avenir medium", sans-serif;
   /*font-weight: normal;*/
-  font-size: 21px;
+  font-size: 18px;
   color: #3b444f;
   margin-bottom: 0;
 }
 .lbl_com{
   font-family: "Avenir", sans-serif;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 18px;
   color: #3b444f;
   margin-bottom: 0;
 }
@@ -1226,38 +1225,28 @@ ul.wrap_socialmedia2 li img{
 .img_logo1{
   width: 54px;
   height: 50px;
-  /*float: right;*/
-  margin-top: 20px;
-  /*margin-right: 20px;*/
 }
 .img_logo2{
   width: 50px;
   height: 50px;
-  /*float: right;*/
   margin-top: 20px;
-  /*margin-right: 20px;*/
 }
 .img_logo3{
   width: 160px;
   height: 50px;
-  /*float: right;*/
   margin-top: 20px;
-  /*margin-right: 20px;*/
 }
 .img_logo4{
   width: 145px;
   height: 60px;
-  /*float: right;*/
   margin-top: 20px;
-  /*margin-right: 20px;*/
 }
 .lbl_profsum2{
   font-family: "Avenir", sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   color: #67747c;
   margin-top: 18px;
-  /*padding: 30px;*/
 }
 .hidelogo2{
   display: none;
@@ -1270,8 +1259,7 @@ ul.wrap_socialmedia2 li img{
 }
 .lbl_awards{
   font-family: "Avenir medium", sans-serif;
-  /*font-weight: */
-  font-size: 21px;
+  font-size: 18px;
   color: #3b444f;
   margin-bottom: 0;
 }
@@ -1281,7 +1269,7 @@ ul.wrap_socialmedia2 li img{
 .lbl_awards_de{
   font-family: "Avenir", sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   color: #67747c;
   margin-bottom: 0;
 }
@@ -1373,6 +1361,18 @@ ul.wrap_socialmedia2 li img{
 
 /*homepage*/
 @media only screen and (max-width: 767px) {
+  .wrapclickdodwwn{
+    font-size: 12px;
+  }
+  .clear_fix2{
+    display: none;
+  }
+  p{
+    margin: 0!important; 
+  }
+  .banner_bg{
+    background-attachment: scroll;
+  }
   .icon{
     display: none;
   }
@@ -1390,7 +1390,6 @@ ul.wrap_socialmedia2 li img{
   }
   .banner_bg{
     padding-bottom: 0;
-	  background-attachment: scroll;
   }
   .clear_fix{
     height: 90px;
@@ -1510,15 +1509,22 @@ ul.wrap_socialmedia2 li img{
   .linemark3{
     margin: 22px 30px;
   }
+  .lbl_overview{
+    font-size: 18px;
+  }
 }
 @media only screen and (max-width: 767px) {
-	
-  .banner_bg_prjt1, .banner_bg_prjt2, .banner_bg_prjt3,
+   .banner_bg_prjt1, .banner_bg_prjt2, .banner_bg_prjt3,
   .banner_bg_prjt4, .banner_bg_prjt5, .banner_bg_prjt6,
-	.banner_bg_prjt7, .banner_bg_prjt8, .banner_bg_prjt9,
-	.banner_bg_prjt10, .banner_bg_prjt11, .banner_bg_prjt12 {
-		background-attachment: scroll;
-	}
+  .banner_bg_prjt7, .banner_bg_prjt8, .banner_bg_prjt9,
+  .banner_bg_prjt10, .banner_bg_prjt11, .banner_bg_prjt12 {
+    background-attachment: scroll;
+    padding-bottom: 0;
+
+  }
+  .navbar-brand{
+    margin-top: 0;
+  }
   .clear_top{
     height: 40px;
   }
@@ -1544,7 +1550,7 @@ ul.wrap_socialmedia2 li img{
     font-size: 14px;
   }
   .clear_top2{
-    height: 50px;
+    height: 40px;
   }
  /* .clear_top3{
     height: 36px;
@@ -1600,7 +1606,7 @@ ul.wrap_socialmedia2 li img{
     font-size: 21px;
   }
   .img_content_prof{
-    margin-top: 0;
+    margin-top: -5px;
   }
   .lbl_pos{
     font-size: 18px;
@@ -1612,7 +1618,7 @@ ul.wrap_socialmedia2 li img{
     font-size: 16px;
   }
   .padding_remove_left{
-    padding: 0;
+    padding-bottom: 40px;
   }
   .lbl_awards{
     font-size: 18px;
@@ -1622,10 +1628,13 @@ ul.wrap_socialmedia2 li img{
   }
   .padding_remove_right{
     padding: 0;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
   }
   .wrap_awards{
-    min-height: 100%;
+    min-height: 394px;
+  }
+  .paddingtablet1{
+    padding-right: 10px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -1698,6 +1707,9 @@ ul.wrap_socialmedia2 li img{
   }
   .btn_downloadcv{
     width: 130px;
+  }
+  .paddingtablet1{
+    padding-right: 0px;
   }
 }
 /*End*/
