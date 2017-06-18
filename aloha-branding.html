@@ -138,6 +138,7 @@
 
 
                         <div id="brand" class="navbar-brand" href="#top">
+                          <a href="index.html">
                             <div class="wrap_brand">
                               <img src="img/icon_VO.png" class="brandlogo" />
                             </div>
@@ -147,6 +148,7 @@
                                   <li><span class="brandname2">UX/Interaction Designer</span></li>
                                 </ul>                                
                             </div>
+                          </a>
                         </div>
                     </div>
                     <div id="navbar" class="collapse navbar-collapse">
@@ -228,7 +230,7 @@
             </li>
             <li>
               <label class="lbl_led">Date</label><br>
-              <span class="lbl_tel">Nov. 2016</span>
+              <span class="lbl_tel">Nov, 2016</span>
             </li>
           </ul>
         </div>
@@ -251,7 +253,7 @@
           <label class="lbl_overview">Overview</label><br>
           <p class="lbl_overview_info2">
             Aloha Digital is a small ad-tech firm started by Pocketmath to
-            support its growing business. It acts as Pocketmath ’s sister
+            support its growing business. It acts as Pocketmath’s sister
             company to deal and support a specific business portfolio.
             The company required a simple branding as well as a web
             front and a bidding platform.
@@ -302,7 +304,7 @@
       </p>
     </div>
   </div>
-  <div class="clearbottom_gray"></div>
+  <div class="clearbottom_gray2"></div>
 </div>
 
 
@@ -568,16 +570,11 @@
 
   <script type="text/javascript">
     jQuery(document).ready(function($){
-      // browser window scroll (in pixels) after which the "back to top" link is shown
       var offset = 300,
-        //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
-        offset_opacity = 1200,
-        //duration of the top scrolling animation (in ms)
+        // offset_opacity = 1200,
         scroll_top_duration = 700,
-        //grab the "back to top" link
         $back_to_top = $('.cd-top');
 
-      //hide or show the "back to top" link
       $(window).scroll(function(){
         ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
         if( $(this).scrollTop() > offset_opacity ) { 
@@ -585,7 +582,6 @@
         }
       });
 
-      //smooth scroll to top
       $back_to_top.on('click', function(event){
         event.preventDefault();
         $('body,html').animate({
