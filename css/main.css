@@ -1229,23 +1229,21 @@ ul.wrap_socialmedia2 li img{
 .img_logo2{
   width: 50px;
   height: 50px;
-  margin-top: 20px;
 }
 .img_logo3{
   width: 160px;
   height: 50px;
-  margin-top: 20px;
 }
 .img_logo4{
   width: 145px;
   height: 60px;
-  margin-top: 20px;
 }
 .lbl_profsum2{
   font-family: "Avenir", sans-serif;
   font-weight: normal;
   font-size: 16px;
   color: #67747c;
+  padding-top: 18px;
   margin-top: 18px;
 }
 .hidelogo2{
