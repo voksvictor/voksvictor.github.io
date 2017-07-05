@@ -1711,3 +1711,50 @@ ul.wrap_socialmedia2 li img{
   }
 }
 /*End*/
+
+
+/* HP-AIO Issues */
+.wrapclickdodwwn {
+    background-color: #297cbb;
+}
+
+.lbl_overview {
+    padding-bottom: 8px;
+}
+
+p {
+    margin: 0 0 30px;
+}
+
+.clear_top2 {
+    height: 50px;
+}
+
+.clear_top3 {
+    height: 30px;
+}
+
+.clear_img {
+    height: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .lbl_overview {
+        padding-bottom: 4px;
+    }
+
+    p {
+        margin: 0 0 30px!important;
+    }
+}
+
+
+/* HP-EWS Issues */
+
+#img1-left {
+    margin-right: 7.5px;
+}
+
+#img1-right {
+    margin:left: 7.5px;
+}
