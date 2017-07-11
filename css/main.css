@@ -1017,7 +1017,7 @@ p{
   /*font-weight: normal;*/
   font-size: 21px;
   color: #3b444f;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
 }
 .clear_top{
   height: 60px;
@@ -1546,6 +1546,7 @@ ul.wrap_socialmedia2 li img{
   }
   .lbl_overview{
     font-size: 16px;
+    padding-bottom:4px;
   }
   .lbl_overview_info2{
     font-size: 14px;
