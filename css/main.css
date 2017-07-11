@@ -1149,6 +1149,9 @@ ul.wrap_socialmedia2 li{
   width: 45px;
   height: 45px;
 }
+ul.wrap_socialmedia2 li:last-child{
+  width: 120px;
+}
 ul.wrap_socialmedia2 li img{
   width: 30px;
   height: 30px;
